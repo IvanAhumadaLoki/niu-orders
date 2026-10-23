@@ -1,0 +1,24 @@
+# Imagen de desarrollo de la API.
+# Se fija la misma versión de Ruby con la que se generó el proyecto.
+FROM ruby:3.3
+
+# Dependencias del sistema:
+# - build-essential / libyaml-dev: compilar gemas nativas
+# - libpq-dev: gema `pg` (PostgreSQL)
+# - postgresql-client: utilidades como pg_isready / psql
+RUN apt-get update -qq && \
+    apt-get install -y --no-install-recommends build-essential libpq-dev libyaml-dev postgresql-client curl && \
+    rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Se copian primero Gemfile y Gemfile.lock para aprovechar la caché de capas:
+# las gemas solo se reinstalan cuando estos archivos cambian.
+COPY Gemfile Gemfile.lock ./
+RUN bundle install
+
+# El código fuente real se monta como volumen desde docker-compose.yml
+# en desarrollo; este COPY deja la imagen autosuficiente si se usa sola.
+COPY . .
+
+EXPOSE 3000

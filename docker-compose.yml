@@ -1,0 +1,47 @@
+# Entorno de desarrollo local.
+# Levantar todo:  docker compose up --build
+services:
+  # Base de datos PostgreSQL. Los datos persisten en el volumen `pg_data`.
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    # La API espera a que PostgreSQL acepte conexiones antes de arrancar.
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # API Rails (puerto 3000).
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile.dev
+    # `bundle check || bundle install` instala gemas nuevas al arrancar;
+    # se borra server.pid por si el contenedor anterior se cerró mal.
+    command: >
+      bash -c "bundle check || bundle install &&
+               rm -f tmp/pids/server.pid &&
+               bin/rails server -b 0.0.0.0 -p 3000"
+    environment:
+      DATABASE_HOST: db
+      DATABASE_USER: postgres
+      DATABASE_PASSWORD: postgres
+    volumes:
+      # Código fuente: los cambios en tu editor se ven al instante en el contenedor.
+      - ./api:/app
+      # Gemas persistentes entre reinicios (evita reinstalar todo cada vez).
+      - bundle_cache:/usr/local/bundle
+    ports:
+      - "3000:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pg_data:
+  bundle_cache:
