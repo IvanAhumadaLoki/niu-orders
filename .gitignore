@@ -1,0 +1,11 @@
+# Variables de entorno locales: nunca se versionan
+.env
+
+# Front-end (se usará desde el commit de la app React)
+web/node_modules/
+web/dist/
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/
