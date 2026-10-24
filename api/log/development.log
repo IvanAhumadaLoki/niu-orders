@@ -98,3 +98,65 @@ FOREIGN KEY ("product_id")
   [1m[35mSQL (0.2ms)[0m  [1m[35mSET search_path TO "$user", public /*application='Api'*/[0m
   [1m[35mSQL (0.3ms)[0m  [1m[35mSET search_path TO public /*application='Api'*/[0m
   [1m[35mSQL (0.4ms)[0m  [1m[35mSET search_path TO "$user", public /*application='Api'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (13.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Api'*/[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  [1m[36mRestaurant Load (9.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mRestaurant Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = 'PROV' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mRestaurant Create (4.3ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES (1, 'Niu Foods Providencia', 'PROV', '2026-10-24 03:40:49.011738', '2026-10-24 03:40:49.011738') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mRestaurant Exists? (10.2ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = 'LCON' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mRestaurant Create (0.4ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES (2, 'Niu Foods Las Condes', 'LCON', '2026-10-24 03:40:49.034164', '2026-10-24 03:40:49.034164') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mRestaurant Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = 'NUNO' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mRestaurant Create (0.5ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES (3, 'Niu Foods Ñuñoa', 'NUNO', '2026-10-24 03:40:49.043642', '2026-10-24 03:40:49.043642') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mProduct Load (3.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = 'SKU-001' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Create (1.4ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES (1, 'Niu Roll Salmón', 'SKU-001', 8990, '2026-10-24 03:40:49.074057', '2026-10-24 03:40:49.074057') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = 'SKU-002' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Create (1.3ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES (2, 'California Ebi', 'SKU-002', 7490, '2026-10-24 03:40:49.085623', '2026-10-24 03:40:49.085623') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = 'SKU-003' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES (3, 'Avocado Roll', 'SKU-003', 6990, '2026-10-24 03:40:49.119497', '2026-10-24 03:40:49.119497') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = 'SKU-004' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES (4, 'Nigiri Salmón x2', 'SKU-004', 3990, '2026-10-24 03:40:49.130862', '2026-10-24 03:40:49.130862') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = 'SKU-005' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES (5, 'Gyozas de Pollo x5', 'SKU-005', 4490, '2026-10-24 03:40:49.142934', '2026-10-24 03:40:49.142934') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = 'SKU-006' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES (6, 'Edamame', 'SKU-006', 3290, '2026-10-24 03:40:49.153077', '2026-10-24 03:40:49.153077') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = 'SKU-007' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES (7, 'Bowl Salmón Teriyaki', 'SKU-007', 9990, '2026-10-24 03:40:49.167803', '2026-10-24 03:40:49.167803') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 8 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = 'SKU-008' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES (8, 'Bowl Pollo Teriyaki', 'SKU-008', 8990, '2026-10-24 03:40:49.178243', '2026-10-24 03:40:49.178243') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 9 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = 'SKU-009' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES (9, 'Bebida 350 ml', 'SKU-009', 1990, '2026-10-24 03:40:49.188131', '2026-10-24 03:40:49.188131') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 10 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = 'SKU-010' LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES (10, 'Agua Mineral 500 ml', 'SKU-010', 1590, '2026-10-24 03:40:49.218759', '2026-10-24 03:40:49.218759') RETURNING "id" /*application='Api'*/[0m
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  [1m[36mRestaurant Count (9.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "restaurants" /*application='Api'*/[0m
+  [1m[36mProduct Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" /*application='Api'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Api'*/[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  [1m[36mRestaurant Load (1.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 8 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 9 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 10 LIMIT 1 /*application='Api'*/[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  [1m[36mRestaurant Count (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "restaurants" /*application='Api'*/[0m
+  [1m[36mProduct Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" /*application='Api'*/[0m
