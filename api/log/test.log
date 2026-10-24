@@ -1833,3 +1833,855 @@ Processing by Rails::HealthController#show as HTML
   Rendered html template (Duration: 0.0ms | GC: 0.0ms)
 Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
   [1m[36mTRANSACTION (0.7ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Load (422.5ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (8.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Load (6.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "PROV"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (19.0ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 1], ["name", "Niu Foods Providencia"], ["code", "PROV"], ["created_at", "2026-10-24 04:17:13.967157"], ["updated_at", "2026-10-24 04:17:13.967157"]]
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "LCON"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.4ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 2], ["name", "Niu Foods Las Condes"], ["code", "LCON"], ["created_at", "2026-10-24 04:17:13.993388"], ["updated_at", "2026-10-24 04:17:13.993388"]]
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "NUNO"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.9ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 3], ["name", "Niu Foods Ñuñoa"], ["code", "NUNO"], ["created_at", "2026-10-24 04:17:14.000138"], ["updated_at", "2026-10-24 04:17:14.000138"]]
+  [1m[36mProduct Load (2.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-001"], ["LIMIT", 1]]
+  [1m[36mProduct Create (4.0ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 1], ["name", "Niu Roll Salmón"], ["sku", "SKU-001"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:14.021159"], ["updated_at", "2026-10-24 04:17:14.021159"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-002"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 2], ["name", "California Ebi"], ["sku", "SKU-002"], ["price_clp", 7490], ["created_at", "2026-10-24 04:17:14.031528"], ["updated_at", "2026-10-24 04:17:14.031528"]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-003"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 3], ["name", "Avocado Roll"], ["sku", "SKU-003"], ["price_clp", 6990], ["created_at", "2026-10-24 04:17:14.035836"], ["updated_at", "2026-10-24 04:17:14.035836"]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-004"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 4], ["name", "Nigiri Salmón x2"], ["sku", "SKU-004"], ["price_clp", 3990], ["created_at", "2026-10-24 04:17:14.040179"], ["updated_at", "2026-10-24 04:17:14.040179"]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-005"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 5], ["name", "Gyozas de Pollo x5"], ["sku", "SKU-005"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:14.044388"], ["updated_at", "2026-10-24 04:17:14.044388"]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-006"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 6], ["name", "Edamame"], ["sku", "SKU-006"], ["price_clp", 3290], ["created_at", "2026-10-24 04:17:14.048901"], ["updated_at", "2026-10-24 04:17:14.048901"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-007"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.4ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 7], ["name", "Bowl Salmón Teriyaki"], ["sku", "SKU-007"], ["price_clp", 9990], ["created_at", "2026-10-24 04:17:14.057366"], ["updated_at", "2026-10-24 04:17:14.057366"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-008"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 8], ["name", "Bowl Pollo Teriyaki"], ["sku", "SKU-008"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:14.066381"], ["updated_at", "2026-10-24 04:17:14.066381"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-009"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 9], ["name", "Bebida 350 ml"], ["sku", "SKU-009"], ["price_clp", 1990], ["created_at", "2026-10-24 04:17:14.072989"], ["updated_at", "2026-10-24 04:17:14.072989"]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-010"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 10], ["name", "Agua Mineral 500 ml"], ["sku", "SKU-010"], ["price_clp", 1590], ["created_at", "2026-10-24 04:17:14.077075"], ["updated_at", "2026-10-24 04:17:14.077075"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Count (4.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "restaurants"[0m
+  [1m[36mProduct Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[36mRestaurant Pluck (1.6ms)[0m  [1m[34mSELECT "restaurants"."id", "restaurants"."code" FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Load (2.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "PROV"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.1ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 1], ["name", "Niu Foods Providencia"], ["code", "PROV"], ["created_at", "2026-10-24 04:17:14.161699"], ["updated_at", "2026-10-24 04:17:14.161699"]]
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "LCON"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.8ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 2], ["name", "Niu Foods Las Condes"], ["code", "LCON"], ["created_at", "2026-10-24 04:17:14.172753"], ["updated_at", "2026-10-24 04:17:14.172753"]]
+  [1m[36mRestaurant Load (2.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "NUNO"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.6ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 3], ["name", "Niu Foods Ñuñoa"], ["code", "NUNO"], ["created_at", "2026-10-24 04:17:14.189811"], ["updated_at", "2026-10-24 04:17:14.189811"]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-001"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 1], ["name", "Niu Roll Salmón"], ["sku", "SKU-001"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:14.194620"], ["updated_at", "2026-10-24 04:17:14.194620"]]
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-002"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 2], ["name", "California Ebi"], ["sku", "SKU-002"], ["price_clp", 7490], ["created_at", "2026-10-24 04:17:14.201223"], ["updated_at", "2026-10-24 04:17:14.201223"]]
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-003"], ["LIMIT", 1]]
+  [1m[36mProduct Create (2.5ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 3], ["name", "Avocado Roll"], ["sku", "SKU-003"], ["price_clp", 6990], ["created_at", "2026-10-24 04:17:14.208558"], ["updated_at", "2026-10-24 04:17:14.208558"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-004"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 4], ["name", "Nigiri Salmón x2"], ["sku", "SKU-004"], ["price_clp", 3990], ["created_at", "2026-10-24 04:17:14.218537"], ["updated_at", "2026-10-24 04:17:14.218537"]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-005"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 5], ["name", "Gyozas de Pollo x5"], ["sku", "SKU-005"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:14.222647"], ["updated_at", "2026-10-24 04:17:14.222647"]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-006"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 6], ["name", "Edamame"], ["sku", "SKU-006"], ["price_clp", 3290], ["created_at", "2026-10-24 04:17:14.226566"], ["updated_at", "2026-10-24 04:17:14.226566"]]
+  [1m[36mProduct Load (2.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-007"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 7], ["name", "Bowl Salmón Teriyaki"], ["sku", "SKU-007"], ["price_clp", 9990], ["created_at", "2026-10-24 04:17:14.236311"], ["updated_at", "2026-10-24 04:17:14.236311"]]
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-008"], ["LIMIT", 1]]
+  [1m[36mProduct Create (2.3ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 8], ["name", "Bowl Pollo Teriyaki"], ["sku", "SKU-008"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:14.243292"], ["updated_at", "2026-10-24 04:17:14.243292"]]
+  [1m[36mProduct Load (2.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-009"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.2ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 9], ["name", "Bebida 350 ml"], ["sku", "SKU-009"], ["price_clp", 1990], ["created_at", "2026-10-24 04:17:14.253488"], ["updated_at", "2026-10-24 04:17:14.253488"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-010"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 10], ["name", "Agua Mineral 500 ml"], ["sku", "SKU-010"], ["price_clp", 1590], ["created_at", "2026-10-24 04:17:14.260319"], ["updated_at", "2026-10-24 04:17:14.260319"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Count (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "restaurants"[0m
+  [1m[36mProduct Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[36mProduct Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "PROV"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.1ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 1], ["name", "Niu Foods Providencia"], ["code", "PROV"], ["created_at", "2026-10-24 04:17:14.298355"], ["updated_at", "2026-10-24 04:17:14.298355"]]
+  [1m[36mRestaurant Load (4.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "LCON"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.1ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 2], ["name", "Niu Foods Las Condes"], ["code", "LCON"], ["created_at", "2026-10-24 04:17:14.313782"], ["updated_at", "2026-10-24 04:17:14.313782"]]
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "NUNO"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.8ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 3], ["name", "Niu Foods Ñuñoa"], ["code", "NUNO"], ["created_at", "2026-10-24 04:17:14.322125"], ["updated_at", "2026-10-24 04:17:14.322125"]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-001"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 1], ["name", "Niu Roll Salmón"], ["sku", "SKU-001"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:14.328036"], ["updated_at", "2026-10-24 04:17:14.328036"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-002"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 2], ["name", "California Ebi"], ["sku", "SKU-002"], ["price_clp", 7490], ["created_at", "2026-10-24 04:17:14.333725"], ["updated_at", "2026-10-24 04:17:14.333725"]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-003"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 3], ["name", "Avocado Roll"], ["sku", "SKU-003"], ["price_clp", 6990], ["created_at", "2026-10-24 04:17:14.337900"], ["updated_at", "2026-10-24 04:17:14.337900"]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-004"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 4], ["name", "Nigiri Salmón x2"], ["sku", "SKU-004"], ["price_clp", 3990], ["created_at", "2026-10-24 04:17:14.342035"], ["updated_at", "2026-10-24 04:17:14.342035"]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-005"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 5], ["name", "Gyozas de Pollo x5"], ["sku", "SKU-005"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:14.351390"], ["updated_at", "2026-10-24 04:17:14.351390"]]
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-006"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 6], ["name", "Edamame"], ["sku", "SKU-006"], ["price_clp", 3290], ["created_at", "2026-10-24 04:17:14.358312"], ["updated_at", "2026-10-24 04:17:14.358312"]]
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-007"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 7], ["name", "Bowl Salmón Teriyaki"], ["sku", "SKU-007"], ["price_clp", 9990], ["created_at", "2026-10-24 04:17:14.371307"], ["updated_at", "2026-10-24 04:17:14.371307"]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-008"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 8], ["name", "Bowl Pollo Teriyaki"], ["sku", "SKU-008"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:14.377726"], ["updated_at", "2026-10-24 04:17:14.377726"]]
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-009"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 9], ["name", "Bebida 350 ml"], ["sku", "SKU-009"], ["price_clp", 1990], ["created_at", "2026-10-24 04:17:14.384210"], ["updated_at", "2026-10-24 04:17:14.384210"]]
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-010"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 10], ["name", "Agua Mineral 500 ml"], ["sku", "SKU-010"], ["price_clp", 1590], ["created_at", "2026-10-24 04:17:14.392114"], ["updated_at", "2026-10-24 04:17:14.392114"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "restaurants"[0m
+  [1m[36mProduct Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Load (1.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "PROV"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.9ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 1], ["name", "Niu Foods Providencia"], ["code", "PROV"], ["created_at", "2026-10-24 04:17:14.433358"], ["updated_at", "2026-10-24 04:17:14.433358"]]
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "LCON"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 2], ["name", "Niu Foods Las Condes"], ["code", "LCON"], ["created_at", "2026-10-24 04:17:14.447643"], ["updated_at", "2026-10-24 04:17:14.447643"]]
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "NUNO"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.6ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 3], ["name", "Niu Foods Ñuñoa"], ["code", "NUNO"], ["created_at", "2026-10-24 04:17:14.457489"], ["updated_at", "2026-10-24 04:17:14.457489"]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-001"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 1], ["name", "Niu Roll Salmón"], ["sku", "SKU-001"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:14.462557"], ["updated_at", "2026-10-24 04:17:14.462557"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-002"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 2], ["name", "California Ebi"], ["sku", "SKU-002"], ["price_clp", 7490], ["created_at", "2026-10-24 04:17:14.475085"], ["updated_at", "2026-10-24 04:17:14.475085"]]
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-003"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 3], ["name", "Avocado Roll"], ["sku", "SKU-003"], ["price_clp", 6990], ["created_at", "2026-10-24 04:17:14.485719"], ["updated_at", "2026-10-24 04:17:14.485719"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-004"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 4], ["name", "Nigiri Salmón x2"], ["sku", "SKU-004"], ["price_clp", 3990], ["created_at", "2026-10-24 04:17:14.490722"], ["updated_at", "2026-10-24 04:17:14.490722"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-005"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 5], ["name", "Gyozas de Pollo x5"], ["sku", "SKU-005"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:14.496825"], ["updated_at", "2026-10-24 04:17:14.496825"]]
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-006"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 6], ["name", "Edamame"], ["sku", "SKU-006"], ["price_clp", 3290], ["created_at", "2026-10-24 04:17:14.502107"], ["updated_at", "2026-10-24 04:17:14.502107"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-007"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 7], ["name", "Bowl Salmón Teriyaki"], ["sku", "SKU-007"], ["price_clp", 9990], ["created_at", "2026-10-24 04:17:14.513871"], ["updated_at", "2026-10-24 04:17:14.513871"]]
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-008"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 8], ["name", "Bowl Pollo Teriyaki"], ["sku", "SKU-008"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:14.521280"], ["updated_at", "2026-10-24 04:17:14.521280"]]
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-009"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 9], ["name", "Bebida 350 ml"], ["sku", "SKU-009"], ["price_clp", 1990], ["created_at", "2026-10-24 04:17:14.530047"], ["updated_at", "2026-10-24 04:17:14.530047"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-010"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 10], ["name", "Agua Mineral 500 ml"], ["sku", "SKU-010"], ["price_clp", 1590], ["created_at", "2026-10-24 04:17:14.543627"], ["updated_at", "2026-10-24 04:17:14.543627"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Count (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "restaurants"[0m
+  [1m[36mProduct Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Load (9.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProduct Load (10.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Count (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "restaurants"[0m
+  [1m[36mProduct Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[36mRestaurant Count (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "restaurants"[0m
+  [1m[36mProduct Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "PROV"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.8ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 1], ["name", "Niu Foods Providencia"], ["code", "PROV"], ["created_at", "2026-10-24 04:17:14.740822"], ["updated_at", "2026-10-24 04:17:14.740822"]]
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (4.4ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "LCON"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.8ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 2], ["name", "Niu Foods Las Condes"], ["code", "LCON"], ["created_at", "2026-10-24 04:17:14.756883"], ["updated_at", "2026-10-24 04:17:14.756883"]]
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "NUNO"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.0ms)[0m  [1m[32mINSERT INTO "restaurants" ("id", "name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 3], ["name", "Niu Foods Ñuñoa"], ["code", "NUNO"], ["created_at", "2026-10-24 04:17:14.763413"], ["updated_at", "2026-10-24 04:17:14.763413"]]
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-001"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 1], ["name", "Niu Roll Salmón"], ["sku", "SKU-001"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:14.769593"], ["updated_at", "2026-10-24 04:17:14.769593"]]
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-002"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 2], ["name", "California Ebi"], ["sku", "SKU-002"], ["price_clp", 7490], ["created_at", "2026-10-24 04:17:14.773035"], ["updated_at", "2026-10-24 04:17:14.773035"]]
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-003"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 3], ["name", "Avocado Roll"], ["sku", "SKU-003"], ["price_clp", 6990], ["created_at", "2026-10-24 04:17:14.776190"], ["updated_at", "2026-10-24 04:17:14.776190"]]
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-004"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 4], ["name", "Nigiri Salmón x2"], ["sku", "SKU-004"], ["price_clp", 3990], ["created_at", "2026-10-24 04:17:14.779435"], ["updated_at", "2026-10-24 04:17:14.779435"]]
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-005"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 5], ["name", "Gyozas de Pollo x5"], ["sku", "SKU-005"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:14.787234"], ["updated_at", "2026-10-24 04:17:14.787234"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-006"], ["LIMIT", 1]]
+  [1m[36mProduct Create (2.7ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 6], ["name", "Edamame"], ["sku", "SKU-006"], ["price_clp", 3290], ["created_at", "2026-10-24 04:17:14.794245"], ["updated_at", "2026-10-24 04:17:14.794245"]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-007"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 7], ["name", "Bowl Salmón Teriyaki"], ["sku", "SKU-007"], ["price_clp", 9990], ["created_at", "2026-10-24 04:17:14.801541"], ["updated_at", "2026-10-24 04:17:14.801541"]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-008"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 8], ["name", "Bowl Pollo Teriyaki"], ["sku", "SKU-008"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:14.804884"], ["updated_at", "2026-10-24 04:17:14.804884"]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-009"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 9], ["name", "Bebida 350 ml"], ["sku", "SKU-009"], ["price_clp", 1990], ["created_at", "2026-10-24 04:17:14.808221"], ["updated_at", "2026-10-24 04:17:14.808221"]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-010"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("id", "name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["id", 10], ["name", "Agua Mineral 500 ml"], ["sku", "SKU-010"], ["price_clp", 1590], ["created_at", "2026-10-24 04:17:14.814442"], ["updated_at", "2026-10-24 04:17:14.814442"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Count (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "restaurants"[0m
+  [1m[36mProduct Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-001"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Risotto with Seafood 1"], ["sku", "TEST-001"], ["price_clp", 6303], ["created_at", "2026-10-24 04:17:15.757647"], ["updated_at", "2026-10-24 04:17:15.757647"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (2.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-012"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pork Sausage Roll 12"], ["sku", "TEST-012"], ["price_clp", 1297], ["created_at", "2026-10-24 04:17:16.171326"], ["updated_at", "2026-10-24 04:17:16.171326"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (5.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-013"], ["LIMIT", 1]]
+  [1m[36mProduct Create (2.0ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Chilli con Carne 13"], ["sku", "TEST-013"], ["price_clp", 7610], ["created_at", "2026-10-24 04:17:16.205684"], ["updated_at", "2026-10-24 04:17:16.205684"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (4.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-015"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Meatballs with Sauce 15"], ["sku", "TEST-015"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:16.264101"], ["updated_at", "2026-10-24 04:17:16.264101"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (8.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-016"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Arepas 16"], ["sku", "TEST-016"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:16.278991"], ["updated_at", "2026-10-24 04:17:16.278991"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-017"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Fish and Chips 17"], ["sku", "TEST-017"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:16.298343"], ["updated_at", "2026-10-24 04:17:16.298343"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (9.3ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST15"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.4ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods McGlynnside 15"], ["code", "TST15"], ["created_at", "2026-10-24 04:17:16.355971"], ["updated_at", "2026-10-24 04:17:16.355971"]]
+  [1m[36mOrder Create (12.8ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["restaurant_id", 4], ["order_type", "pickup"], ["customer_name", "Carey Lueilwitz"], ["customer_phone", "+56912345678"], ["delivery_address", nil], ["total_clp", 17980], ["dispatch_status", "pending"], ["dispatch_attempts", 0], ["last_dispatch_error", nil], ["dispatched_at", nil], ["created_at", "2026-10-24 04:17:16.360590"], ["updated_at", "2026-10-24 04:17:16.360590"]]
+  [1m[36mOrderItem Create (4.8ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 17], ["product_id", 16], ["quantity", 2], ["unit_price_clp", 8990], ["subtotal_clp", 17980], ["created_at", "2026-10-24 04:17:16.374840"], ["updated_at", "2026-10-24 04:17:16.374840"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Update (7.4ms)[0m  [1m[33mUPDATE "products" SET "price_clp" = $1, "updated_at" = $2 WHERE "products"."id" = $3[0m  [["price_clp", 12000], ["updated_at", "2026-10-24 04:17:16.382588"], ["id", 16]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mOrder Load (0.5ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mOrderItem Load (1.4ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = $1 ORDER BY "order_items"."id" ASC LIMIT $2[0m  [["order_id", 17], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.9ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST16"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Batzborough 16"], ["code", "TST16"], ["created_at", "2026-10-24 04:17:16.405234"], ["updated_at", "2026-10-24 04:17:16.405234"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOrder Create (1.4ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["restaurant_id", 5], ["order_type", "pickup"], ["customer_name", "Gennie Schumm"], ["customer_phone", "+56912345678"], ["delivery_address", nil], ["total_clp", 6414], ["dispatch_status", "pending"], ["dispatch_attempts", 0], ["last_dispatch_error", nil], ["dispatched_at", nil], ["created_at", "2026-10-24 04:17:16.412681"], ["updated_at", "2026-10-24 04:17:16.412681"]]
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-018"], ["LIMIT", 1]]
+  [1m[36mProduct Create (2.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Souvlaki 18"], ["sku", "TEST-018"], ["price_clp", 6414], ["created_at", "2026-10-24 04:17:16.419263"], ["updated_at", "2026-10-24 04:17:16.419263"]]
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 18], ["product_id", 17], ["quantity", 1], ["unit_price_clp", 6414], ["subtotal_clp", 6414], ["created_at", "2026-10-24 04:17:16.424157"], ["updated_at", "2026-10-24 04:17:16.424157"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Exists? (1.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-019"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-020"], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-020"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", ""], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (2.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-022"], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-022"], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-022"], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-022"], ["LIMIT", 1]]
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-022"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-001"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Chicken Fajitas 23"], ["sku", "SKU-001"], ["price_clp", 8356], ["created_at", "2026-10-24 04:17:16.522924"], ["updated_at", "2026-10-24 04:17:16.522924"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "SKU-001"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRestaurant Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST17"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRestaurant Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST18"], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST18"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRestaurant Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", ""], ["LIMIT", 1]]
+  [1m[36mRestaurant Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRestaurant Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "PR-OV"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "PROV"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.0ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods North Brianfurt 21"], ["code", "PROV"], ["created_at", "2026-10-24 04:17:16.644091"], ["updated_at", "2026-10-24 04:17:16.644091"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "PROV"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mOrderItem Count (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "order_items"[0m
+  [1m[36mOrder Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST20"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.6ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Lake Marylin 24"], ["code", "TST20"], ["created_at", "2026-10-24 04:17:16.680934"], ["updated_at", "2026-10-24 04:17:16.680934"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-023"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Salmon Nigiri 26"], ["sku", "TEST-023"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:16.687628"], ["updated_at", "2026-10-24 04:17:16.687628"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-024"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pappardelle alla Bolognese 27"], ["sku", "TEST-024"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:16.698899"], ["updated_at", "2026-10-24 04:17:16.698899"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-24 04:17:16 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>7, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>19, "quantity"=>2}, {"product_id"=>20, "quantity"=>1}], "order"=>{"restaurant_id"=>7, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e62998701e8>, params: {"restaurant_id"=>7, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>19, "quantity"=>2}, {"product_id"=>20, "quantity"=>1}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>7, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mOrder Create (0.7ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["restaurant_id", 7], ["order_type", "delivery"], ["customer_name", "Ana Pérez"], ["customer_phone", "+56912345678"], ["delivery_address", "Av. Providencia 1234, Santiago"], ["total_clp", 22470], ["dispatch_status", "pending"], ["dispatch_attempts", 0], ["last_dispatch_error", nil], ["dispatched_at", nil], ["created_at", "2026-10-24 04:17:16.739747"], ["updated_at", "2026-10-24 04:17:16.739747"]]
+  [1m[36mOrderItem Create (0.6ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 19], ["product_id", 19], ["quantity", 2], ["unit_price_clp", 8990], ["subtotal_clp", 17980], ["created_at", "2026-10-24 04:17:16.742654"], ["updated_at", "2026-10-24 04:17:16.742654"]]
+  [1m[36mOrderItem Create (0.5ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 19], ["product_id", 20], ["quantity", 1], ["unit_price_clp", 4490], ["subtotal_clp", 4490], ["created_at", "2026-10-24 04:17:16.744172"], ["updated_at", "2026-10-24 04:17:16.744172"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 23ms (Views: 0.2ms | ActiveRecord: 4.1ms (6 queries, 0 cached) | GC: 0.0ms)
+  [1m[36mOrder Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  [1m[36mOrderItem Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "order_items"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST21"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.8ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Ondrickaport 25"], ["code", "TST21"], ["created_at", "2026-10-24 04:17:16.757278"], ["updated_at", "2026-10-24 04:17:16.757278"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-025"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Chicken Fajitas 28"], ["sku", "TEST-025"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:16.765008"], ["updated_at", "2026-10-24 04:17:16.765008"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (2.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-026"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Chicken Milanese 29"], ["sku", "TEST-026"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:16.778370"], ["updated_at", "2026-10-24 04:17:16.778370"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-24 04:17:16 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>8, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>21, "quantity"=>2}, {"product_id"=>22, "quantity"=>1}], "order"=>{"restaurant_id"=>8, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e629b5e7000>, params: {"restaurant_id"=>8, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>21, "quantity"=>2}, {"product_id"=>22, "quantity"=>1}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>8, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mOrder Create (0.9ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["restaurant_id", 8], ["order_type", "delivery"], ["customer_name", "Ana Pérez"], ["customer_phone", "+56912345678"], ["delivery_address", "Av. Providencia 1234, Santiago"], ["total_clp", 22470], ["dispatch_status", "pending"], ["dispatch_attempts", 0], ["last_dispatch_error", nil], ["dispatched_at", nil], ["created_at", "2026-10-24 04:17:16.794377"], ["updated_at", "2026-10-24 04:17:16.794377"]]
+  [1m[36mOrderItem Create (1.1ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 20], ["product_id", 21], ["quantity", 2], ["unit_price_clp", 8990], ["subtotal_clp", 17980], ["created_at", "2026-10-24 04:17:16.797185"], ["updated_at", "2026-10-24 04:17:16.797185"]]
+  [1m[36mOrderItem Create (0.8ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 20], ["product_id", 22], ["quantity", 1], ["unit_price_clp", 4490], ["subtotal_clp", 4490], ["created_at", "2026-10-24 04:17:16.830629"], ["updated_at", "2026-10-24 04:17:16.830629"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 52ms (Views: 0.1ms | ActiveRecord: 6.3ms (6 queries, 0 cached) | GC: 31.9ms)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST22"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.6ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods North Bettie 26"], ["code", "TST22"], ["created_at", "2026-10-24 04:17:16.843265"], ["updated_at", "2026-10-24 04:17:16.843265"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-027"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Scotch Eggs 30"], ["sku", "TEST-027"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:16.852829"], ["updated_at", "2026-10-24 04:17:16.852829"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-028"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Caprese Salad 31"], ["sku", "TEST-028"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:16.861082"], ["updated_at", "2026-10-24 04:17:16.861082"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-24 04:17:16 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>9, "order_type"=>"pickup", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "items"=>[{"product_id"=>23, "quantity"=>2}, {"product_id"=>24, "quantity"=>1}], "order"=>{"restaurant_id"=>9, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e629971fa00>, params: {"restaurant_id"=>9, "order_type"=>"pickup", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "items"=>[{"product_id"=>23, "quantity"=>2}, {"product_id"=>24, "quantity"=>1}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>9, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mOrder Create (2.3ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["restaurant_id", 9], ["order_type", "pickup"], ["customer_name", "Ana Pérez"], ["customer_phone", "+56912345678"], ["delivery_address", nil], ["total_clp", 22470], ["dispatch_status", "pending"], ["dispatch_attempts", 0], ["last_dispatch_error", nil], ["dispatched_at", nil], ["created_at", "2026-10-24 04:17:16.882489"], ["updated_at", "2026-10-24 04:17:16.882489"]]
+  [1m[36mOrderItem Create (0.8ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 21], ["product_id", 23], ["quantity", 2], ["unit_price_clp", 8990], ["subtotal_clp", 17980], ["created_at", "2026-10-24 04:17:16.887219"], ["updated_at", "2026-10-24 04:17:16.887219"]]
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 21], ["product_id", 24], ["quantity", 1], ["unit_price_clp", 4490], ["subtotal_clp", 4490], ["created_at", "2026-10-24 04:17:16.889240"], ["updated_at", "2026-10-24 04:17:16.889240"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 26ms (Views: 0.2ms | ActiveRecord: 7.2ms (6 queries, 0 cached) | GC: 0.0ms)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.7ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST23"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.0ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Labadieberg 27"], ["code", "TST23"], ["created_at", "2026-10-24 04:17:16.902393"], ["updated_at", "2026-10-24 04:17:16.902393"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (3.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-029"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Barbecue Ribs 32"], ["sku", "TEST-029"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:16.916997"], ["updated_at", "2026-10-24 04:17:16.916997"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (2.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-030"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pho 33"], ["sku", "TEST-030"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:16.928187"], ["updated_at", "2026-10-24 04:17:16.928187"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-24 04:17:16 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>10, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>25, "quantity"=>2, "unit_price_clp"=>1}], "total_clp"=>1, "dispatch_status"=>"sent", "order"=>{"restaurant_id"=>10, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago", "total_clp"=>1, "dispatch_status"=>"sent"}}
+[31mUnpermitted parameter: :unit_price_clp. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e6299791060>, params: {"restaurant_id"=>10, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>25, "quantity"=>2, "unit_price_clp"=>1}], "total_clp"=>1, "dispatch_status"=>"sent", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>10, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago", "total_clp"=>1, "dispatch_status"=>"sent"}} }[0m
+[31mUnpermitted parameters: :total_clp, :dispatch_status, :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e6299791060>, params: {"restaurant_id"=>10, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>25, "quantity"=>2, "unit_price_clp"=>1}], "total_clp"=>1, "dispatch_status"=>"sent", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>10, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago", "total_clp"=>1, "dispatch_status"=>"sent"}} }[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mOrder Create (0.8ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["restaurant_id", 10], ["order_type", "delivery"], ["customer_name", "Ana Pérez"], ["customer_phone", "+56912345678"], ["delivery_address", "Av. Providencia 1234, Santiago"], ["total_clp", 17980], ["dispatch_status", "pending"], ["dispatch_attempts", 0], ["last_dispatch_error", nil], ["dispatched_at", nil], ["created_at", "2026-10-24 04:17:16.943096"], ["updated_at", "2026-10-24 04:17:16.943096"]]
+  [1m[36mOrderItem Create (1.2ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 22], ["product_id", 25], ["quantity", 2], ["unit_price_clp", 8990], ["subtotal_clp", 17980], ["created_at", "2026-10-24 04:17:16.945361"], ["updated_at", "2026-10-24 04:17:16.945361"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 13ms (Views: 0.1ms | ActiveRecord: 4.0ms (4 queries, 0 cached) | GC: 0.0ms)
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mOrder Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST24"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.9ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Lillianaborough 28"], ["code", "TST24"], ["created_at", "2026-10-24 04:17:16.962924"], ["updated_at", "2026-10-24 04:17:16.962924"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (2.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-031"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Cheeseburger 34"], ["sku", "TEST-031"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:16.975184"], ["updated_at", "2026-10-24 04:17:16.975184"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-032"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pork Sausage Roll 35"], ["sku", "TEST-032"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:16.983099"], ["updated_at", "2026-10-24 04:17:16.983099"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-24 04:17:16 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>11, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "items"=>[{"product_id"=>27, "quantity"=>2}, {"product_id"=>28, "quantity"=>1}], "order"=>{"restaurant_id"=>11, "order_type"=>"delivery"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e6299821868>, params: {"restaurant_id"=>11, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "items"=>[{"product_id"=>27, "quantity"=>2}, {"product_id"=>28, "quantity"=>1}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>11, "order_type"=>"delivery"}} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Content in 14ms (Views: 0.1ms | ActiveRecord: 4.2ms (3 queries, 0 cached) | GC: 0.0ms)
+  [1m[36mOrder Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST25"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.4ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Evanborough 29"], ["code", "TST25"], ["created_at", "2026-10-24 04:17:17.012896"], ["updated_at", "2026-10-24 04:17:17.012896"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-033"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Peking Duck 36"], ["sku", "TEST-033"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.019461"], ["updated_at", "2026-10-24 04:17:17.019461"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-034"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pappardelle alla Bolognese 37"], ["sku", "TEST-034"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.029343"], ["updated_at", "2026-10-24 04:17:17.029343"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-24 04:17:17 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>12, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[], "order"=>{"restaurant_id"=>12, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e6299a3b7c0>, params: {"restaurant_id"=>12, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>12, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Content in 4ms (Views: 0.1ms | ActiveRecord: 1.3ms (1 query, 0 cached) | GC: 0.3ms)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST26"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.0ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Spencerburgh 30"], ["code", "TST26"], ["created_at", "2026-10-24 04:17:17.055156"], ["updated_at", "2026-10-24 04:17:17.055156"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-035"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Chicken Parm 38"], ["sku", "TEST-035"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.063732"], ["updated_at", "2026-10-24 04:17:17.063732"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-036"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Tacos 39"], ["sku", "TEST-036"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.074838"], ["updated_at", "2026-10-24 04:17:17.074838"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-24 04:17:17 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>0, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>31, "quantity"=>2}, {"product_id"=>32, "quantity"=>1}], "order"=>{"restaurant_id"=>0, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e6299b6f970>, params: {"restaurant_id"=>0, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>31, "quantity"=>2}, {"product_id"=>32, "quantity"=>1}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>0, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Content in 12ms (Views: 0.2ms | ActiveRecord: 2.0ms (3 queries, 0 cached) | GC: 0.2ms)
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST27"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.8ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods South Pat 31"], ["code", "TST27"], ["created_at", "2026-10-24 04:17:17.099066"], ["updated_at", "2026-10-24 04:17:17.099066"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (3.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-037"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Mushroom Risotto 40"], ["sku", "TEST-037"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.109495"], ["updated_at", "2026-10-24 04:17:17.109495"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-038"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Souvlaki 41"], ["sku", "TEST-038"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.123174"], ["updated_at", "2026-10-24 04:17:17.123174"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-24 04:17:17 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>14, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>0, "quantity"=>1}], "order"=>{"restaurant_id"=>14, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e6299875be8>, params: {"restaurant_id"=>14, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>0, "quantity"=>1}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>14, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Content in 9ms (Views: 0.1ms | ActiveRecord: 2.5ms (2 queries, 0 cached) | GC: 0.0ms)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.9ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST28"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.3ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Lourdesborough 32"], ["code", "TST28"], ["created_at", "2026-10-24 04:17:17.148106"], ["updated_at", "2026-10-24 04:17:17.148106"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-039"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pho 42"], ["sku", "TEST-039"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.159172"], ["updated_at", "2026-10-24 04:17:17.159172"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-040"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Massaman Curry 43"], ["sku", "TEST-040"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.164093"], ["updated_at", "2026-10-24 04:17:17.164093"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-24 04:17:17 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>15, "order_type"=>"drone", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>35, "quantity"=>2}, {"product_id"=>36, "quantity"=>1}], "order"=>{"restaurant_id"=>15, "order_type"=>"drone", "delivery_address"=>"Av. Providencia 1234, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e629adb7308>, params: {"restaurant_id"=>15, "order_type"=>"drone", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>35, "quantity"=>2}, {"product_id"=>36, "quantity"=>1}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>15, "order_type"=>"drone", "delivery_address"=>"Av. Providencia 1234, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Content in 13ms (Views: 0.2ms | ActiveRecord: 3.4ms (3 queries, 0 cached) | GC: 0.0ms)
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST29"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.7ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods East Bibi 33"], ["code", "TST29"], ["created_at", "2026-10-24 04:17:17.198758"], ["updated_at", "2026-10-24 04:17:17.198758"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-041"], ["LIMIT", 1]]
+  [1m[36mProduct Create (3.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Bunny Chow 44"], ["sku", "TEST-041"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.208719"], ["updated_at", "2026-10-24 04:17:17.208719"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-042"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Risotto with Seafood 45"], ["sku", "TEST-042"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.239939"], ["updated_at", "2026-10-24 04:17:17.239939"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-24 04:17:17 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>16, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>37, "quantity"=>2}, {"product_id"=>38, "quantity"=>1}], "order"=>{"restaurant_id"=>16, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e629995e4d8>, params: {"restaurant_id"=>16, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>37, "quantity"=>2}, {"product_id"=>38, "quantity"=>1}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>16, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 37], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Content in 7ms (Views: 0.1ms | ActiveRecord: 1.6ms (3 queries, 0 cached) | GC: 0.0ms)
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST30"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.9ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Port Lynwoodstad 34"], ["code", "TST30"], ["created_at", "2026-10-24 04:17:17.261006"], ["updated_at", "2026-10-24 04:17:17.261006"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-043"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Arepas 46"], ["sku", "TEST-043"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.270910"], ["updated_at", "2026-10-24 04:17:17.270910"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (4.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-044"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pork Sausage Roll 47"], ["sku", "TEST-044"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.286995"], ["updated_at", "2026-10-24 04:17:17.286995"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-24 04:17:17 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>17, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>39, "quantity"=>0}], "order"=>{"restaurant_id"=>17, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e629971dca0>, params: {"restaurant_id"=>17, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>39, "quantity"=>0}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>17, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Content in 10ms (Views: 0.1ms | ActiveRecord: 2.7ms (2 queries, 0 cached) | GC: 0.0ms)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-045"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Seafood Paella 48"], ["sku", "TEST-045"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.312753"], ["updated_at", "2026-10-24 04:17:17.312753"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (7.5ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST31"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (1.0ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Lake Chloefort 35"], ["code", "TST31"], ["created_at", "2026-10-24 04:17:17.330564"], ["updated_at", "2026-10-24 04:17:17.330564"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (3.9ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-046"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Peking Duck 49"], ["sku", "TEST-046"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.341578"], ["updated_at", "2026-10-24 04:17:17.341578"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-24 04:17:17 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>18, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>41, "quantity"=>1}, {"product_id"=>41, "quantity"=>2}], "order"=>{"restaurant_id"=>18, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007e62997dc6c8>, params: {"restaurant_id"=>18, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>41, "quantity"=>1}, {"product_id"=>41, "quantity"=>2}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>18, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 41], ["LIMIT", 1]]
+  [1m[36mCACHE Product Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 41], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Content in 12ms (Views: 0.1ms | ActiveRecord: 2.7ms (3 queries, 1 cached) | GC: 0.2ms)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/up" for 127.0.0.1 at 2026-10-24 04:17:17 +0000
+Processing by Rails::HealthController#show as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mOrderItem Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "order_items"[0m
+  [1m[36mOrder Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST32"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.7ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods West Sunnyside 36"], ["code", "TST32"], ["created_at", "2026-10-24 04:17:17.386825"], ["updated_at", "2026-10-24 04:17:17.386825"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-047"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Salmon Nigiri 50"], ["sku", "TEST-047"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.393015"], ["updated_at", "2026-10-24 04:17:17.393015"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-048"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pasta and Beans 51"], ["sku", "TEST-048"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.398977"], ["updated_at", "2026-10-24 04:17:17.398977"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mOrder Create (0.9ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["restaurant_id", 19], ["order_type", "delivery"], ["customer_name", "Ana Pérez"], ["customer_phone", "+56912345678"], ["delivery_address", "Av. Providencia 1234, Santiago"], ["total_clp", 22470], ["dispatch_status", "pending"], ["dispatch_attempts", 0], ["last_dispatch_error", nil], ["dispatched_at", nil], ["created_at", "2026-10-24 04:17:17.411322"], ["updated_at", "2026-10-24 04:17:17.411322"]]
+  [1m[36mOrderItem Create (1.3ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 23], ["product_id", 43], ["quantity", 2], ["unit_price_clp", 8990], ["subtotal_clp", 17980], ["created_at", "2026-10-24 04:17:17.414270"], ["updated_at", "2026-10-24 04:17:17.414270"]]
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 23], ["product_id", 44], ["quantity", 1], ["unit_price_clp", 4490], ["subtotal_clp", 4490], ["created_at", "2026-10-24 04:17:17.417657"], ["updated_at", "2026-10-24 04:17:17.417657"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mOrder Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  [1m[36mOrderItem Count (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "order_items"[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST33"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.8ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Mitchellburgh 37"], ["code", "TST33"], ["created_at", "2026-10-24 04:17:17.430458"], ["updated_at", "2026-10-24 04:17:17.430458"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-049"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pappardelle alla Bolognese 52"], ["sku", "TEST-049"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.438497"], ["updated_at", "2026-10-24 04:17:17.438497"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-050"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Kebab 53"], ["sku", "TEST-050"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.447616"], ["updated_at", "2026-10-24 04:17:17.447616"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 45], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 46], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[36mOrder Create (2.8ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["restaurant_id", 20], ["order_type", "delivery"], ["customer_name", "Ana Pérez"], ["customer_phone", "+56912345678"], ["delivery_address", "Av. Providencia 1234, Santiago"], ["total_clp", 22470], ["dispatch_status", "pending"], ["dispatch_attempts", 0], ["last_dispatch_error", nil], ["dispatched_at", nil], ["created_at", "2026-10-24 04:17:17.462056"], ["updated_at", "2026-10-24 04:17:17.462056"]]
+  [1m[36mOrderItem Create (1.0ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 24], ["product_id", 45], ["quantity", 2], ["unit_price_clp", 8990], ["subtotal_clp", 17980], ["created_at", "2026-10-24 04:17:17.472003"], ["updated_at", "2026-10-24 04:17:17.472003"]]
+  [1m[36mOrderItem Create (1.0ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 24], ["product_id", 46], ["quantity", 1], ["unit_price_clp", 4490], ["subtotal_clp", 4490], ["created_at", "2026-10-24 04:17:17.475207"], ["updated_at", "2026-10-24 04:17:17.475207"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST34"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.9ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Minland 38"], ["code", "TST34"], ["created_at", "2026-10-24 04:17:17.499384"], ["updated_at", "2026-10-24 04:17:17.499384"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-051"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Hummus 54"], ["sku", "TEST-051"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.515844"], ["updated_at", "2026-10-24 04:17:17.515844"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-052"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Seafood Paella 55"], ["sku", "TEST-052"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.528800"], ["updated_at", "2026-10-24 04:17:17.528800"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (2.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 47], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[36mOrder Create (4.1ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["restaurant_id", 21], ["order_type", "delivery"], ["customer_name", "Ana Pérez"], ["customer_phone", "+56912345678"], ["delivery_address", "Av. Providencia 1234, Santiago"], ["total_clp", 17980], ["dispatch_status", "pending"], ["dispatch_attempts", 0], ["last_dispatch_error", nil], ["dispatched_at", nil], ["created_at", "2026-10-24 04:17:17.547243"], ["updated_at", "2026-10-24 04:17:17.547243"]]
+  [1m[36mOrderItem Create (1.2ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 25], ["product_id", 47], ["quantity", 2], ["unit_price_clp", 8990], ["subtotal_clp", 17980], ["created_at", "2026-10-24 04:17:17.554631"], ["updated_at", "2026-10-24 04:17:17.554631"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST35"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.8ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Port Florenciashire 39"], ["code", "TST35"], ["created_at", "2026-10-24 04:17:17.568227"], ["updated_at", "2026-10-24 04:17:17.568227"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (9.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-053"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Stinky Tofu 56"], ["sku", "TEST-053"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.583472"], ["updated_at", "2026-10-24 04:17:17.583472"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-054"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Barbecue Ribs 57"], ["sku", "TEST-054"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.591084"], ["updated_at", "2026-10-24 04:17:17.591084"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (2.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 49], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 50], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mOrder Create (11.0ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["restaurant_id", 22], ["order_type", "delivery"], ["customer_name", "Ana Pérez"], ["customer_phone", "+56912345678"], ["delivery_address", "Av. Providencia 1234, Santiago"], ["total_clp", 22470], ["dispatch_status", "pending"], ["dispatch_attempts", 0], ["last_dispatch_error", nil], ["dispatched_at", nil], ["created_at", "2026-10-24 04:17:17.609321"], ["updated_at", "2026-10-24 04:17:17.609321"]]
+  [1m[36mOrderItem Create (1.1ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 26], ["product_id", 49], ["quantity", 2], ["unit_price_clp", 8990], ["subtotal_clp", 17980], ["created_at", "2026-10-24 04:17:17.623151"], ["updated_at", "2026-10-24 04:17:17.623151"]]
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["order_id", 26], ["product_id", 50], ["quantity", 1], ["unit_price_clp", 4490], ["subtotal_clp", 4490], ["created_at", "2026-10-24 04:17:17.625972"], ["updated_at", "2026-10-24 04:17:17.625972"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mOrder Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST36"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.9ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Lake Oralee 40"], ["code", "TST36"], ["created_at", "2026-10-24 04:17:17.638521"], ["updated_at", "2026-10-24 04:17:17.638521"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (3.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-055"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pasta with Tomato and Basil 58"], ["sku", "TEST-055"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.648216"], ["updated_at", "2026-10-24 04:17:17.648216"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-056"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Mushroom Risotto 59"], ["sku", "TEST-056"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.655662"], ["updated_at", "2026-10-24 04:17:17.655662"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 51], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 52], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (7.4ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[36mOrder Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-057"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Caprese Salad 60"], ["sku", "TEST-057"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.698085"], ["updated_at", "2026-10-24 04:17:17.698085"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-058"], ["LIMIT", 1]]
+  [1m[36mProduct Create (1.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Lasagne 61"], ["sku", "TEST-058"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.728215"], ["updated_at", "2026-10-24 04:17:17.728215"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mOrder Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  [1m[36mOrderItem Count (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "order_items"[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST37"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.9ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Fernandofurt 41"], ["code", "TST37"], ["created_at", "2026-10-24 04:17:17.739873"], ["updated_at", "2026-10-24 04:17:17.739873"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Load (1.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 53], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 54], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[36mOrder Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  [1m[36mOrderItem Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "order_items"[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "restaurants" WHERE "restaurants"."code" = $1 LIMIT $2[0m  [["code", "TST38"], ["LIMIT", 1]]
+  [1m[36mRestaurant Create (0.6ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "code", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Niu Foods Port Mohamed 42"], ["code", "TST38"], ["created_at", "2026-10-24 04:17:17.786057"], ["updated_at", "2026-10-24 04:17:17.786057"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-059"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "California Maki 62"], ["sku", "TEST-059"], ["price_clp", 8990], ["created_at", "2026-10-24 04:17:17.801745"], ["updated_at", "2026-10-24 04:17:17.801745"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mProduct Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."sku" = $1 LIMIT $2[0m  [["sku", "TEST-060"], ["LIMIT", 1]]
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "sku", "price_clp", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pasta with Tomato and Basil 63"], ["sku", "TEST-060"], ["price_clp", 4490], ["created_at", "2026-10-24 04:17:17.809072"], ["updated_at", "2026-10-24 04:17:17.809072"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRestaurant Load (1.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[31mROLLBACK[0m
