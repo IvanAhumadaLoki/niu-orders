@@ -31,6 +31,9 @@ services:
       DATABASE_HOST: db
       DATABASE_USER: postgres
       DATABASE_PASSWORD: postgres
+      # Probabilidad (0 a 1) de que la tienda simulada responda con un error.
+      # Ejemplo:  MOCK_STORE_FAILURE_RATE=0.5 docker compose up -d
+      MOCK_STORE_FAILURE_RATE: ${MOCK_STORE_FAILURE_RATE:-0}
     volumes:
       # Código fuente: los cambios en tu editor se ven al instante en el contenedor.
       - ./api:/app

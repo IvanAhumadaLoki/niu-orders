@@ -284,3 +284,44 @@ Processing by Api::V1::OrdersController#create as */*
 Completed 422 Unprocessable Content in 467ms (Views: 11.1ms | ActiveRecord: 275.0ms (2 queries, 0 cached) | GC: 0.0ms)
 
 
+Started POST "/mock_store/PROV/orders" for 172.18.0.1 at 2026-10-24 04:57:26 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (19.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Api'*/[0m
+Processing by MockStore::OrdersController#create as */*
+  Parameters: {"id"=>1, "restaurant"=>{"code"=>"PROV"}, "order_type"=>"pickup", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "total_clp"=>8990, "items"=>[{"product_id"=>1, "quantity"=>1}], "store_code"=>"PROV", "order"=>{"id"=>1, "order_type"=>"pickup", "total_clp"=>8990}}
+  [1m[36mRestaurant Load (6.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'PROV' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore PROV] Orden #1 recibida: pickup, total 8990 CLP, 1 ítem(s)
+Completed 200 OK in 33ms (Views: 0.4ms | ActiveRecord: 138.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/mock_store/PROV/orders" for 172.18.0.1 at 2026-10-24 04:57:49 +0000
+Processing by MockStore::OrdersController#create as */*
+  Parameters: {"id"=>1, "store_code"=>"PROV", "order"=>{"id"=>1}}
+Completed 503 Service Unavailable in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/mock_store/LCON/orders" for 172.18.0.1 at 2026-10-24 04:58:09 +0000
+Processing by MockStore::OrdersController#create as */*
+  Parameters: {"id"=>1, "restaurant"=>{"code"=>"PROV"}, "order_type"=>"pickup", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "total_clp"=>8990, "items"=>[{"product_id"=>1, "quantity"=>1}], "store_code"=>"LCON", "order"=>{"id"=>1, "order_type"=>"pickup", "total_clp"=>8990}}
+  [1m[36mRestaurant Load (1.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'LCON' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+Completed 422 Unprocessable Content in 5ms (Views: 0.2ms | ActiveRecord: 1.9ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/mock_store/LCON/orders" for 172.18.0.1 at 2026-10-24 04:58:43 +0000
+Processing by MockStore::OrdersController#create as */*
+  Parameters: {"id"=>1, "restaurant"=>{"code"=>"PROV"}, "order_type"=>"pickup", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "total_clp"=>8990, "items"=>[{"product_id"=>1, "quantity"=>1}], "store_code"=>"LCON", "order"=>{"id"=>1, "order_type"=>"pickup", "total_clp"=>8990}}
+  [1m[36mRestaurant Load (1.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'LCON' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+Completed 422 Unprocessable Content in 35ms (Views: 0.2ms | ActiveRecord: 1.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/mock_store/PROV/orders" for 172.18.0.1 at 2026-10-24 05:00:07 +0000
+Processing by MockStore::OrdersController#create as */*
+  Parameters: {"id"=>1, "restaurant"=>{"code"=>"PROV"}, "order_type"=>"pickup", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "total_clp"=>8990, "items"=>[{"product_id"=>1, "quantity"=>1}], "store_code"=>"PROV", "order"=>{"id"=>1, "order_type"=>"pickup", "total_clp"=>8990}}
+  [1m[36mRestaurant Load (30.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'PROV' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore PROV] Orden #1 recibida: pickup, total 8990 CLP, 1 ítem(s)
+Completed 200 OK in 152ms (Views: 5.3ms | ActiveRecord: 29.7ms (1 query, 0 cached) | GC: 0.0ms)
+
+
