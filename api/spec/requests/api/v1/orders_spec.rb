@@ -1,32 +1,8 @@
 require "rails_helper"
 
 RSpec.describe "POST /api/v1/orders", type: :request do
-  let(:restaurant) { create(:restaurant) }
-  let(:salmon_roll) { create(:product, price_clp: 8_990) }
-  let(:gyozas) { create(:product, price_clp: 4_490) }
-
-  # Payload equivalente al de referencia de la prueba.
-  let(:payload) do
-    {
-      restaurant_id: restaurant.id,
-      order_type: "delivery",
-      customer: { name: "Ana Pérez", phone: "+56912345678" },
-      delivery_address: "Av. Providencia 1234, Santiago",
-      items: [
-        { product_id: salmon_roll.id, quantity: 2 },
-        { product_id: gyozas.id, quantity: 1 }
-      ]
-    }
-  end
-
-  def post_order(body)
-    post "/api/v1/orders", params: body, as: :json
-  end
-
-  # Atajo para leer el detalle de errores del formato estándar.
-  def error_details
-    response.parsed_body.dig("error", "details")
-  end
+  # Aporta restaurant, productos, `payload`, `post_order` y `error_details`.
+  include_context "payload de orden"
 
   describe "con un payload válido" do
     it "responde 201 y guarda la orden con sus ítems" do

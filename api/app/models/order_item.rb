@@ -13,8 +13,12 @@ class OrderItem < ApplicationRecord
 
   # Fija el precio unitario (solo al crear) y calcula el subtotal.
   # Es público porque Order lo invoca antes de sumar su total.
+  #
+  # No calcula nada si la cantidad no es un entero positivo: ese ítem ya es
+  # inválido por su propia validación, y un subtotal negativo o en cero
+  # contaminaría el total de la orden con un error que el cliente no causó.
   def calculate_amounts
-    return unless product && quantity.is_a?(Integer)
+    return unless product && quantity.is_a?(Integer) && quantity.positive?
 
     self.unit_price_clp = product.price_clp if new_record?
     self.subtotal_clp = unit_price_clp * quantity

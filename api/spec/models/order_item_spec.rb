@@ -22,5 +22,13 @@ RSpec.describe OrderItem, type: :model do
       expect(item.unit_price_clp).to eq(4_490)
       expect(item.subtotal_clp).to eq(13_470)
     end
+
+    it "no calcula montos si la cantidad no es positiva" do
+      item = OrderItem.new(product: build(:product, price_clp: 4_490), quantity: -2)
+
+      item.calculate_amounts
+
+      expect(item.subtotal_clp).to be_nil
+    end
   end
 end

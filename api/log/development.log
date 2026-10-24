@@ -269,3 +269,18 @@ Processing by Api::V1::OrdersController#create as */*
 Completed 201 Created in 127ms (Views: 1.5ms | ActiveRecord: 44.4ms (6 queries, 0 cached) | GC: 0.0ms)
 
 
+Started POST "/api/v1/orders" for 172.18.0.1 at 2026-10-24 04:44:03 +0000
+Processing by Api::V1::OrdersController#create as */*
+  Parameters: {"restaurant_id"=>2, "order_type"=>"pickup", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "items"=>[{"product_id"=>1, "quantity"=>-1}], "order"=>{"restaurant_id"=>2, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x000070fac6976d78>, params: {"restaurant_id"=>2, "order_type"=>"pickup", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "items"=>[{"product_id"=>1, "quantity"=>-1}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>2, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (21.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (2.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:43:in `call'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:43:in `call'
+Completed 422 Unprocessable Content in 467ms (Views: 11.1ms | ActiveRecord: 275.0ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
