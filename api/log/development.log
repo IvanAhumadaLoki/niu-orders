@@ -223,3 +223,49 @@ Processing by Api::V1::OrdersController#create as */*
 Completed 201 Created in 190ms (Views: 4.3ms | ActiveRecord: 186.4ms (6 queries, 0 cached) | GC: 29.3ms)
 
 
+Started POST "/api/v1/orders" for 172.18.0.1 at 2026-10-24 04:31:21 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (6.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Api'*/[0m
+Started GET "/api/v1/nada" for 172.18.0.1 at 2026-10-24 04:31:42 +0000
+Processing by ErrorsController#not_found as */*
+  Parameters: {"path"=>"api/v1/nada"}
+Completed 404 Not Found in 13ms (Views: 0.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/v1/orders" for 172.18.0.1 at 2026-10-24 04:32:05 +0000
+Processing by Api::V1::OrdersController#create as */*
+  Parameters: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "items"=>[{"product_id"=>1, "quantity"=>2}], "order"=>{"restaurant_id"=>2, "order_type"=>"delivery"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x000070fac4444f78>, params: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "items"=>[{"product_id"=>1, "quantity"=>2}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>2, "order_type"=>"delivery"}} }[0m
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:17:in `calculate_amounts'
+  [1m[36mProduct Load (6.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:17:in `calculate_amounts'
+  [1m[36mRestaurant Load (3.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:43:in `call'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[31mROLLBACK /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:43:in `call'
+Completed 422 Unprocessable Content in 988ms (Views: 0.7ms | ActiveRecord: 239.4ms (2 queries, 0 cached) | GC: 221.7ms)
+
+
+Started POST "/api/v1/orders" for 172.18.0.1 at 2026-10-24 04:33:24 +0000
+Processing by Api::V1::OrdersController#create as */*
+  Parameters: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>1, "quantity"=>2}, {"product_id"=>5, "quantity"=>1}], "order"=>{"restaurant_id"=>2, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x000070fac459e4c8>, params: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Pérez", "phone"=>"+56912345678"}, "delivery_address"=>"Av. Providencia 1234, Santiago", "items"=>[{"product_id"=>1, "quantity"=>2}, {"product_id"=>5, "quantity"=>1}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>2, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 1234, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:17:in `calculate_amounts'
+  [1m[36mProduct Load (3.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:17:in `calculate_amounts'
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:17:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:43:in `call'
+  [1m[36mOrder Create (22.9ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (2, 'delivery', 'Ana Pérez', '+56912345678', 'Av. Providencia 1234, Santiago', 22470, 'pending', 0, NULL, NULL, '2026-10-24 04:33:24.909786', '2026-10-24 04:33:24.909786') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:43:in `call'
+  [1m[36mOrderItem Create (8.1ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (3, 1, 2, 8990, 17980, '2026-10-24 04:33:24.943211', '2026-10-24 04:33:24.943211') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:43:in `call'
+  [1m[36mOrderItem Create (1.0ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (3, 5, 1, 4490, 4490, '2026-10-24 04:33:24.954288', '2026-10-24 04:33:24.954288') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:43:in `call'
+  [1m[36mTRANSACTION (6.6ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:43:in `call'
+Completed 201 Created in 127ms (Views: 1.5ms | ActiveRecord: 44.4ms (6 queries, 0 cached) | GC: 0.0ms)
+
+

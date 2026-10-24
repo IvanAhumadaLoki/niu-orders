@@ -16,7 +16,8 @@ module Api
     #
     # Respuestas:
     #   201 -> orden guardada (el despacho a tienda se agrega en commits posteriores)
-    #   422 -> datos inválidos, con el detalle de errores por campo
+    #   400 -> JSON mal formado (lo responde JsonBodyGuard)
+    #   422 -> datos inválidos, con el detalle por campo en `error.details`
     class OrdersController < ApplicationController
       def create
         result = OrderCreator.call(order_params)
@@ -24,7 +25,7 @@ module Api
         if result.success?
           render json: OrderSerializer.new(result.order).as_json, status: 201
         else
-          render json: { errors: result.errors }, status: 422
+          render_validation_error(result.errors)
         end
       end
 

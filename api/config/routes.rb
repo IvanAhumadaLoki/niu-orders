@@ -12,4 +12,10 @@ Rails.application.routes.draw do
       resources :orders, only: :create
     end
   end
+
+  # Ruta comodín: DEBE ir al final. Captura cualquier ruta (o método) que no
+  # coincida con las anteriores y responde 404 con el formato estándar.
+  # Se excluye /rails/ para no interferir con las herramientas internas de Rails.
+  match "*path", to: "errors#not_found", via: :all, format: false,
+                 constraints: ->(request) { !request.path.start_with?("/rails/") }
 end

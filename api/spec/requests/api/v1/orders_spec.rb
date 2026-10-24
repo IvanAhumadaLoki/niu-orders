@@ -23,6 +23,11 @@ RSpec.describe "POST /api/v1/orders", type: :request do
     post "/api/v1/orders", params: body, as: :json
   end
 
+  # Atajo para leer el detalle de errores del formato estándar.
+  def error_details
+    response.parsed_body.dig("error", "details")
+  end
+
   describe "con un payload válido" do
     it "responde 201 y guarda la orden con sus ítems" do
       expect { post_order(payload) }
@@ -69,53 +74,63 @@ RSpec.describe "POST /api/v1/orders", type: :request do
   end
 
   describe "con datos inválidos" do
+    it "responde 422 con el formato estándar de error" do
+      post_order(payload.except(:delivery_address))
+
+      expect(response).to have_http_status(422)
+      expect(response.parsed_body["error"]).to include(
+        "code" => "validation_failed",
+        "message" => "Los datos enviados no son válidos"
+      )
+    end
+
     it "responde 422 si es delivery y no trae dirección" do
       expect { post_order(payload.except(:delivery_address)) }.not_to change(Order, :count)
 
       expect(response).to have_http_status(422)
-      expect(response.parsed_body["errors"]).to have_key("delivery_address")
+      expect(error_details).to have_key("delivery_address")
     end
 
     it "responde 422 si no trae ítems" do
       post_order(payload.merge(items: []))
 
       expect(response).to have_http_status(422)
-      expect(response.parsed_body["errors"]).to have_key("items")
+      expect(error_details).to have_key("items")
     end
 
     it "responde 422 si el restaurante no existe" do
       post_order(payload.merge(restaurant_id: 0))
 
       expect(response).to have_http_status(422)
-      expect(response.parsed_body["errors"]).to have_key("restaurant")
+      expect(error_details).to have_key("restaurant")
     end
 
     it "responde 422 si algún producto no existe" do
       post_order(payload.merge(items: [ { product_id: 0, quantity: 1 } ]))
 
       expect(response).to have_http_status(422)
-      expect(response.parsed_body["errors"]).to have_key("items.product")
+      expect(error_details).to have_key("items.product")
     end
 
     it "responde 422 si el tipo de pedido es desconocido" do
       post_order(payload.merge(order_type: "drone"))
 
       expect(response).to have_http_status(422)
-      expect(response.parsed_body["errors"]).to have_key("order_type")
+      expect(error_details).to have_key("order_type")
     end
 
     it "responde 422 si falta el cliente" do
       post_order(payload.except(:customer))
 
       expect(response).to have_http_status(422)
-      expect(response.parsed_body["errors"]).to include("customer_name", "customer_phone")
+      expect(error_details).to include("customer_name", "customer_phone")
     end
 
     it "responde 422 si la cantidad no es positiva" do
       post_order(payload.merge(items: [ { product_id: salmon_roll.id, quantity: 0 } ]))
 
       expect(response).to have_http_status(422)
-      expect(response.parsed_body["errors"]).to have_key("items.quantity")
+      expect(error_details).to have_key("items.quantity")
     end
 
     it "responde 422 si repite un producto" do
@@ -124,7 +139,7 @@ RSpec.describe "POST /api/v1/orders", type: :request do
       post_order(payload.merge(items: repeated))
 
       expect(response).to have_http_status(422)
-      expect(response.parsed_body["errors"]).to have_key("items")
+      expect(error_details).to have_key("items")
     end
   end
 end
