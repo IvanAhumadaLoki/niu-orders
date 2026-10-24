@@ -8,7 +8,12 @@
 # - El estado de despacho a tienda arranca en "pending" (ver enum más abajo).
 class Order < ApplicationRecord
   belongs_to :restaurant
-  has_many :items, class_name: "OrderItem", dependent: :destroy, inverse_of: :order
+
+  # `autosave: true` hace que los errores de un ítem se reporten con su campo
+  # (por ejemplo "items.quantity" o "items.product") en vez de un genérico
+  # "items is invalid", lo que le da al cliente de la API un error accionable.
+  has_many :items, class_name: "OrderItem", dependent: :destroy,
+                   inverse_of: :order, autosave: true
 
   # Tipo de pedido. Con `validate: true`, un valor desconocido no lanza una
   # excepción: queda como error de validación, que la API devuelve como 422.
