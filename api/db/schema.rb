@@ -10,9 +10,46 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_24_025648) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_24_031648) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
+
+  create_table "order_items", force: :cascade do |t|
+    t.bigint "order_id", null: false
+    t.bigint "product_id", null: false
+    t.integer "quantity", null: false
+    t.integer "unit_price_clp", null: false
+    t.integer "subtotal_clp", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["order_id", "product_id"], name: "index_order_items_on_order_id_and_product_id", unique: true
+    t.index ["product_id"], name: "index_order_items_on_product_id"
+    t.check_constraint "quantity > 0", name: "order_items_quantity_positive"
+    t.check_constraint "subtotal_clp > 0", name: "order_items_subtotal_positive"
+    t.check_constraint "unit_price_clp > 0", name: "order_items_unit_price_positive"
+  end
+
+  create_table "orders", force: :cascade do |t|
+    t.bigint "restaurant_id", null: false
+    t.string "order_type", null: false
+    t.string "customer_name", null: false
+    t.string "customer_phone", null: false
+    t.text "delivery_address"
+    t.integer "total_clp", default: 0, null: false
+    t.string "dispatch_status", default: "pending", null: false
+    t.integer "dispatch_attempts", default: 0, null: false
+    t.text "last_dispatch_error"
+    t.datetime "dispatched_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["created_at"], name: "index_orders_on_created_at"
+    t.index ["dispatch_status"], name: "index_orders_on_dispatch_status"
+    t.index ["restaurant_id"], name: "index_orders_on_restaurant_id"
+    t.check_constraint "dispatch_attempts >= 0", name: "orders_dispatch_attempts_non_negative"
+    t.check_constraint "dispatch_status::text = ANY (ARRAY['pending'::character varying, 'sent'::character varying, 'error'::character varying]::text[])", name: "orders_dispatch_status_valid"
+    t.check_constraint "order_type::text = ANY (ARRAY['pickup'::character varying, 'delivery'::character varying]::text[])", name: "orders_order_type_valid"
+    t.check_constraint "total_clp >= 0", name: "orders_total_clp_non_negative"
+  end
 
   create_table "products", force: :cascade do |t|
     t.string "name", null: false
@@ -31,4 +68,8 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_24_025648) do
     t.datetime "updated_at", null: false
     t.index ["code"], name: "index_restaurants_on_code", unique: true
   end
+
+  add_foreign_key "order_items", "orders"
+  add_foreign_key "order_items", "products"
+  add_foreign_key "orders", "restaurants"
 end

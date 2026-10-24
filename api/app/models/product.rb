@@ -1,8 +1,11 @@
 # Producto del catálogo que se puede incluir en una orden.
 #
-# `price_clp` es el precio vigente. Cada ítem de una orden guardará su propia
+# `price_clp` es el precio vigente. Cada ítem de una orden guarda su propia
 # copia del precio al momento de la compra, para no alterar órdenes antiguas.
 class Product < ApplicationRecord
+  # No se puede borrar un producto que ya fue vendido: se perdería el historial.
+  has_many :order_items, dependent: :restrict_with_error
+
   # El SKU se guarda en mayúsculas y sin espacios en los bordes.
   normalizes :sku, with: ->(sku) { sku.strip.upcase }
 

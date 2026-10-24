@@ -58,3 +58,43 @@ Migrating to CreateProducts (20261024025648)
   [1m[35mSQL (0.4ms)[0m  [1m[35mSET search_path TO "$user", public /*application='Api'*/[0m
   [1m[35mSQL (0.6ms)[0m  [1m[35mSET search_path TO public /*application='Api'*/[0m
   [1m[35mSQL (0.3ms)[0m  [1m[35mSET search_path TO "$user", public /*application='Api'*/[0m
+  [1m[35m (17.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7360005403205278215) /*application='Api'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (15.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Api'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Load (19.6ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='Api'*/[0m
+Migrating to CreateOrders (20261024031613)
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  [1m[35m (202.1ms)[0m  [1m[35mCREATE TABLE "orders" ("id" bigserial primary key, "restaurant_id" bigint NOT NULL, "order_type" character varying NOT NULL, "customer_name" character varying NOT NULL, "customer_phone" character varying NOT NULL, "delivery_address" text, "total_clp" integer DEFAULT 0 NOT NULL, "dispatch_status" character varying DEFAULT 'pending' NOT NULL, "dispatch_attempts" integer DEFAULT 0 NOT NULL, "last_dispatch_error" text, "dispatched_at" timestamp(6), "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_9af093cac8"
+FOREIGN KEY ("restaurant_id")
+  REFERENCES "restaurants" ("id")
+) /*application='Api'*/[0m
+  [1m[35m (7.2ms)[0m  [1m[35mCREATE INDEX "index_orders_on_restaurant_id" ON "orders" ("restaurant_id") /*application='Api'*/[0m
+  [1m[35m (6.4ms)[0m  [1m[35mCREATE INDEX "index_orders_on_dispatch_status" ON "orders" ("dispatch_status") /*application='Api'*/[0m
+  [1m[35m (8.9ms)[0m  [1m[35mCREATE INDEX "index_orders_on_created_at" ON "orders" ("created_at") /*application='Api'*/[0m
+  [1m[35m (7.3ms)[0m  [1m[35mALTER TABLE "orders" ADD CONSTRAINT orders_order_type_valid CHECK (order_type IN ('pickup', 'delivery')) /*application='Api'*/[0m
+  [1m[35m (1.0ms)[0m  [1m[35mALTER TABLE "orders" ADD CONSTRAINT orders_dispatch_status_valid CHECK (dispatch_status IN ('pending', 'sent', 'error')) /*application='Api'*/[0m
+  [1m[35m (5.2ms)[0m  [1m[35mALTER TABLE "orders" ADD CONSTRAINT orders_total_clp_non_negative CHECK (total_clp >= 0) /*application='Api'*/[0m
+  [1m[35m (4.0ms)[0m  [1m[35mALTER TABLE "orders" ADD CONSTRAINT orders_dispatch_attempts_non_negative CHECK (dispatch_attempts >= 0) /*application='Api'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Create (11.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20261024031613') RETURNING "version" /*application='Api'*/[0m
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+Migrating to CreateOrderItems (20261024031648)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  [1m[35m (23.5ms)[0m  [1m[35mCREATE TABLE "order_items" ("id" bigserial primary key, "order_id" bigint NOT NULL, "product_id" bigint NOT NULL, "quantity" integer NOT NULL, "unit_price_clp" integer NOT NULL, "subtotal_clp" integer NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_e3cb28f071"
+FOREIGN KEY ("order_id")
+  REFERENCES "orders" ("id")
+, CONSTRAINT "fk_rails_f1a29ddd47"
+FOREIGN KEY ("product_id")
+  REFERENCES "products" ("id")
+) /*application='Api'*/[0m
+  [1m[35m (8.5ms)[0m  [1m[35mCREATE INDEX "index_order_items_on_product_id" ON "order_items" ("product_id") /*application='Api'*/[0m
+  [1m[35m (6.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_order_items_on_order_id_and_product_id" ON "order_items" ("order_id", "product_id") /*application='Api'*/[0m
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "order_items" ADD CONSTRAINT order_items_quantity_positive CHECK (quantity > 0) /*application='Api'*/[0m
+  [1m[35m (1.4ms)[0m  [1m[35mALTER TABLE "order_items" ADD CONSTRAINT order_items_unit_price_positive CHECK (unit_price_clp > 0) /*application='Api'*/[0m
+  [1m[35m (3.3ms)[0m  [1m[35mALTER TABLE "order_items" ADD CONSTRAINT order_items_subtotal_positive CHECK (subtotal_clp > 0) /*application='Api'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20261024031648') RETURNING "version" /*application='Api'*/[0m
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT pg_advisory_unlock(7360005403205278215) /*application='Api'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Api'*/[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[35mSET search_path TO public /*application='Api'*/[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[35mSET search_path TO "$user", public /*application='Api'*/[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mSET search_path TO public /*application='Api'*/[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mSET search_path TO "$user", public /*application='Api'*/[0m

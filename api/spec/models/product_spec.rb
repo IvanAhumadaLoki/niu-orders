@@ -1,6 +1,10 @@
 require "rails_helper"
 
 RSpec.describe Product, type: :model do
+  describe "asociaciones" do
+    it { is_expected.to have_many(:order_items).dependent(:restrict_with_error) }
+  end
+
   describe "validaciones" do
     subject { build(:product) }
 

@@ -1,6 +1,10 @@
 require "rails_helper"
 
 RSpec.describe Restaurant, type: :model do
+  describe "asociaciones" do
+    it { is_expected.to have_many(:orders).dependent(:restrict_with_error) }
+  end
+
   describe "validaciones" do
     subject { build(:restaurant) }
 
