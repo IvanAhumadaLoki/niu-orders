@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { formatClp, formatDateTime } from "./format.js";
+import { formatClp, formatDateTime, formatTime } from "./format.js";
 
 describe("formatClp", () => {
   it("formatea pesos chilenos con separador de miles y sin decimales", () => {
@@ -28,5 +28,16 @@ describe("formatDateTime", () => {
   it("devuelve un guion si falta la fecha o no es válida", () => {
     expect(formatDateTime(null)).toBe("—");
     expect(formatDateTime("no-es-una-fecha")).toBe("—");
+  });
+});
+
+describe("formatTime", () => {
+  it("muestra hora:minuto:segundo en la zona horaria indicada", () => {
+    expect(formatTime(new Date("2026-10-26T13:05:09Z"), "America/Santiago")).toBe("10:05:09");
+  });
+
+  it("devuelve un guion si no hay una fecha válida", () => {
+    expect(formatTime(null)).toBe("—");
+    expect(formatTime(new Date("no-es-una-fecha"))).toBe("—");
   });
 });
