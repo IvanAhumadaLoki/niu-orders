@@ -1,5 +1,36 @@
 # Entorno de desarrollo local.
 # Levantar todo:  docker compose up --build
+#
+# Servicios:
+#   db       PostgreSQL
+#   redis    cola de trabajos de Sidekiq
+#   api      API Rails (puerto 3000); también aloja la tienda simulada
+#   sidekiq  procesa en segundo plano el despacho de órdenes a las tiendas
+
+# Configuración común a `api` y `sidekiq`: es la misma aplicación Rails, con
+# el mismo código, base de datos y variables, solo cambia el comando que ejecuta.
+x-rails-app: &rails-app
+  build:
+    context: ./api
+    dockerfile: Dockerfile.dev
+  environment:
+    DATABASE_HOST: db
+    DATABASE_USER: postgres
+    DATABASE_PASSWORD: postgres
+    # Dónde está Redis (el nombre `redis` es el del servicio de abajo).
+    REDIS_URL: redis://redis:6379/0
+    # Dónde están las tiendas. En desarrollo apunta a la tienda simulada de
+    # esta misma API; `api` es el nombre del servicio dentro de la red de Docker.
+    STORE_BASE_URL: http://api:3000/mock_store
+    # Probabilidad (0 a 1) de que la tienda simulada responda con un error.
+    # Ejemplo:  MOCK_STORE_FAILURE_RATE=0.5 docker compose up -d
+    MOCK_STORE_FAILURE_RATE: ${MOCK_STORE_FAILURE_RATE:-0}
+  volumes:
+    # Código fuente: los cambios en tu editor se ven al instante en el contenedor.
+    - ./api:/app
+    # Gemas persistentes entre reinicios (evita reinstalar todo cada vez).
+    - bundle_cache:/usr/local/bundle
+
 services:
   # Base de datos PostgreSQL. Los datos persisten en el volumen `pg_data`.
   db:
@@ -9,46 +40,69 @@ services:
       POSTGRES_PASSWORD: postgres
     volumes:
       - pg_data:/var/lib/postgresql/data
-    # La API espera a que PostgreSQL acepte conexiones antes de arrancar.
+    # Los demás servicios esperan a que PostgreSQL acepte conexiones.
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres"]
       interval: 5s
       timeout: 5s
       retries: 10
 
+  # Redis guarda la cola de Sidekiq (trabajos pendientes y reintentos).
+  # `appendonly` registra cada escritura en disco para que los trabajos
+  # pendientes sobrevivan a un reinicio del contenedor.
+  redis:
+    image: redis:7
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
   # API Rails (puerto 3000).
   api:
-    build:
-      context: ./api
-      dockerfile: Dockerfile.dev
+    <<: *rails-app
     # `bundle check || bundle install` instala gemas nuevas al arrancar;
     # se borra server.pid por si el contenedor anterior se cerró mal.
     command: >
       bash -c "bundle check || bundle install &&
                rm -f tmp/pids/server.pid &&
                bin/rails server -b 0.0.0.0 -p 3000"
-    environment:
-      DATABASE_HOST: db
-      DATABASE_USER: postgres
-      DATABASE_PASSWORD: postgres
-      # Dónde están las tiendas. En desarrollo apunta a la tienda simulada de
-      # esta misma API; `api` es el nombre del servicio dentro de la red de
-      # Docker, así también lo podrá usar el contenedor de Sidekiq más adelante.
-      STORE_BASE_URL: http://api:3000/mock_store
-      # Probabilidad (0 a 1) de que la tienda simulada responda con un error.
-      # Ejemplo:  MOCK_STORE_FAILURE_RATE=0.5 docker compose up -d
-      MOCK_STORE_FAILURE_RATE: ${MOCK_STORE_FAILURE_RATE:-0}
-    volumes:
-      # Código fuente: los cambios en tu editor se ven al instante en el contenedor.
-      - ./api:/app
-      # Gemas persistentes entre reinicios (evita reinstalar todo cada vez).
-      - bundle_cache:/usr/local/bundle
     ports:
       - "3000:3000"
     depends_on:
       db:
         condition: service_healthy
+      redis:
+        condition: service_healthy
+    # Sidekiq espera a que la API esté sana: así no instalan gemas a la vez
+    # sobre el mismo volumen, y la tienda simulada ya responde cuando Sidekiq arranca.
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:3000/up || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+
+  # Procesa los trabajos encolados: envía cada orden a su tienda y reintenta
+  # si falla. `-c 5` son 5 hilos, igual al tamaño del pool de conexiones de
+  # la base de datos (RAILS_MAX_THREADS, 5 por defecto).
+  sidekiq:
+    <<: *rails-app
+    command: >
+      bash -c "bundle check || bundle install &&
+               bundle exec sidekiq -c 5"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      api:
+        condition: service_healthy
 
 volumes:
   pg_data:
+  redis_data:
   bundle_cache:

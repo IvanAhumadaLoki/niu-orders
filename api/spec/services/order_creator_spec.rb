@@ -87,4 +87,32 @@ RSpec.describe OrderCreator do
       expect(result.errors).to have_key(:items)
     end
   end
+
+  describe "despacho a la tienda" do
+    it "encola el despacho de la orden guardada" do
+      order = nil
+
+      expect { order = described_class.call(params).order }
+        .to change { DispatchOrderJob.jobs.size }.by(1)
+
+      expect(DispatchOrderJob.jobs.last["args"]).to eq([ order.id ])
+    end
+
+    it "no encola nada si la orden no se guardó" do
+      expect { described_class.call(params.except(:delivery_address)) }
+        .not_to change { DispatchOrderJob.jobs.size }
+    end
+
+    it "no pierde la orden si Redis no está disponible" do
+      allow(DispatchOrderJob).to receive(:perform_async)
+        .and_raise(RedisClient::CannotConnectError, "sin conexión")
+      allow(Rails.logger).to receive(:error)
+
+      result = described_class.call(params)
+
+      expect(result).to be_success
+      expect(result.order).to be_dispatch_pending
+      expect(Rails.logger).to have_received(:error).with(/No se pudo encolar/)
+    end
+  end
 end

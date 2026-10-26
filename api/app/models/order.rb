@@ -5,7 +5,7 @@
 # - Si es delivery, exige dirección de entrega.
 # - El total (`total_clp`) SIEMPRE lo calcula el servidor a partir de los ítems;
 #   cualquier valor que llegue desde afuera se sobrescribe antes de validar.
-# - El estado de despacho a tienda arranca en "pending" (ver enum más abajo).
+# - Lleva el estado de su despacho a la tienda (ver "Estado del despacho").
 class Order < ApplicationRecord
   belongs_to :restaurant
 
@@ -21,6 +21,9 @@ class Order < ApplicationRecord
 
   # Estado del despacho a la tienda. El prefijo evita choques de nombres
   # (queda `dispatch_pending?`, `dispatch_sent?`, `dispatch_error?` y sus scopes).
+  #   pending -> aún no confirmada por la tienda (incluye los reintentos en curso)
+  #   sent    -> la tienda confirmó la recepción
+  #   error   -> rechazo definitivo o reintentos agotados
   enum :dispatch_status, { pending: "pending", sent: "sent", error: "error" },
        prefix: :dispatch, validate: true
 
@@ -42,7 +45,42 @@ class Order < ApplicationRecord
   # Corre antes de las validaciones, incluidas las de los ítems.
   before_validation :calculate_total
 
+  # --- Estado del despacho ---------------------------------------------------
+  # Los usa DispatchOrderJob para dejar registrado qué pasó con la entrega.
+
+  # Cuenta un intento de entrega. Es un incremento atómico en la base de datos
+  # (UPDATE ... SET dispatch_attempts = dispatch_attempts + 1), seguro aunque
+  # dos procesos lo hagan a la vez. Se llama ANTES de enviar, para que un
+  # intento cuente aunque el proceso muera a mitad de camino.
+  def register_dispatch_attempt!
+    increment!(:dispatch_attempts, touch: true)
+  end
+
+  # Falla transitoria: guarda el motivo, pero la orden sigue pendiente porque
+  # todavía se va a reintentar.
+  def record_dispatch_failure!(message)
+    update_dispatch_state!(last_dispatch_error: message)
+  end
+
+  # La tienda confirmó la recepción: se limpia el último error.
+  def mark_dispatched!
+    update_dispatch_state!(dispatch_status: :sent, dispatched_at: Time.current, last_dispatch_error: nil)
+  end
+
+  # Rechazo definitivo o reintentos agotados: no se intentará más.
+  def mark_dispatch_error!(message)
+    update_dispatch_state!(dispatch_status: :error, last_dispatch_error: message)
+  end
+
   private
+
+  # Guarda SOLO columnas de despacho, sin validaciones. Es a propósito:
+  # registrar lo que pasó con la entrega no debe depender de que el resto de la
+  # orden pase las reglas actuales, ni recalcular el total (before_validation).
+  def update_dispatch_state!(attributes)
+    assign_attributes(attributes)
+    save!(validate: false)
+  end
 
   # Recalcula los montos de cada ítem y suma el total de la orden.
   # Se piden los montos a cada ítem de forma explícita porque las validaciones

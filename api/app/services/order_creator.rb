@@ -1,10 +1,11 @@
-# Crea una orden a partir del payload recibido por la API.
+# Crea una orden a partir del payload recibido por la API y programa su despacho.
 #
 # Responsabilidad: traducir el payload JSON (cliente anidado, ítems por
-# product_id) a una Order con sus OrderItems y guardarla. No decide montos:
-# el precio unitario, el subtotal y el total los calculan los modelos
-# (OrderItem y Order) al validar, de modo que cualquier valor que informe el
-# cliente se ignora, porque este servicio solo lee las claves conocidas.
+# product_id) a una Order con sus OrderItems, guardarla y, si se guardó,
+# encolar su envío a la tienda. No decide montos: el precio unitario, el
+# subtotal y el total los calculan los modelos (OrderItem y Order) al validar,
+# de modo que cualquier valor que informe el cliente se ignora, porque este
+# servicio solo lee las claves conocidas.
 #
 # Uso:
 #   result = OrderCreator.call(params)
@@ -40,7 +41,7 @@ class OrderCreator
 
   def call
     order = build_order
-    order.save
+    schedule_dispatch(order) if order.save
     Result.new(order: order)
   end
 
@@ -70,5 +71,17 @@ class OrderCreator
   # al menos un ítem y devolverá el 422 correspondiente).
   def items_data
     Array.wrap(data[:items]).select { |item| item.is_a?(Hash) }
+  end
+
+  # Encola el envío a la tienda. Se llama DESPUÉS de guardar: así la orden ya
+  # está confirmada en la base de datos cuando el job la busque.
+  #
+  # Si Redis no está disponible, la orden NO se pierde: ya está guardada y queda
+  # en estado "pending". Se registra el error en el log y la API igual responde
+  # 201, en vez de devolver un 500 por un pedido que sí quedó registrado.
+  def schedule_dispatch(order)
+    DispatchOrderJob.perform_async(order.id)
+  rescue RedisClient::Error => e
+    Rails.logger.error("No se pudo encolar el despacho de la orden ##{order.id}: #{e.class}: #{e.message}")
   end
 end

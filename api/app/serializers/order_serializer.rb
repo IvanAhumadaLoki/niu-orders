@@ -1,6 +1,7 @@
 # Convierte una Order en el JSON que expone la API.
 # Centralizar el formato aquí permite reutilizarlo en el listado y en el
-# detalle del dashboard sin duplicar código.
+# detalle del dashboard sin duplicar código. También es el cuerpo que el
+# despachador envía a la tienda.
 class OrderSerializer
   def initialize(order)
     @order = order
@@ -23,6 +24,8 @@ class OrderSerializer
       total_clp: @order.total_clp,
       dispatch_status: @order.dispatch_status,
       dispatch_attempts: @order.dispatch_attempts,
+      dispatched_at: @order.dispatched_at&.iso8601,
+      last_dispatch_error: @order.last_dispatch_error,
       created_at: @order.created_at.iso8601,
       items: @order.items.map { |item| item_json(item) }
     }
