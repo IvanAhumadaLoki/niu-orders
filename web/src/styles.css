@@ -5,8 +5,15 @@
   --text: #1f2933;
   --muted: #667085;
   --border: #e4e7ec;
-  --ok: #067647;
-  --error: #b42318;
+  --accent: #1d4ed8;
+
+  /* Cada estado de despacho: texto oscuro sobre fondo claro del mismo tono. */
+  --pending-bg: #fef3c7;
+  --pending-text: #92400e;
+  --sent-bg: #d1fae5;
+  --sent-text: #065f46;
+  --error-bg: #fee2e2;
+  --error-text: #991b1b;
 
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   color: var(--text);
@@ -18,9 +25,17 @@ body {
 }
 
 .page {
-  max-width: 960px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 32px 16px;
+}
+
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
 }
 
 h1 {
@@ -29,26 +44,145 @@ h1 {
 }
 
 .subtitle {
-  margin: 4px 0 24px;
+  margin: 4px 0 0;
   color: var(--muted);
 }
 
-.card {
-  padding: 20px;
+.muted {
+  color: var(--muted);
+}
+
+/* Botones */
+button {
+  padding: 8px 14px;
+  font: inherit;
+  color: var(--text);
   background: var(--surface);
   border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Aviso de error */
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  color: var(--error-text);
+  background: var(--error-bg);
   border-radius: 8px;
 }
 
-.card h2 {
-  margin: 0 0 8px;
-  font-size: 1rem;
+/* Tarjeta que contiene la tabla */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: opacity 0.15s;
 }
 
-.ok {
-  color: var(--ok);
+.card-loading {
+  opacity: 0.6;
 }
 
-.error {
-  color: var(--error);
+.empty {
+  margin: 0;
+  padding: 32px 16px;
+  text-align: center;
+  color: var(--muted);
+}
+
+/* Tabla de órdenes */
+.table-wrap {
+  overflow-x: auto;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.orders-table th {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: var(--bg);
+}
+
+.orders-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.orders-table .amount {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.order-number {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Etiquetas de estado de despacho */
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 999px;
+}
+
+.badge-pending {
+  color: var(--pending-text);
+  background: var(--pending-bg);
+}
+
+.badge-sent {
+  color: var(--sent-text);
+  background: var(--sent-bg);
+}
+
+.badge-error {
+  color: var(--error-text);
+  background: var(--error-bg);
+  cursor: help;
+}
+
+/* Paginación */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 16px;
+  border-top: 1px solid var(--border);
+}
+
+.pagination-buttons {
+  display: flex;
+  gap: 8px;
 }
