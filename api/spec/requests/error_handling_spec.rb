@@ -17,7 +17,8 @@ RSpec.describe "Respuestas de error estándar", type: :request do
     end
 
     it "responde 404 si el método no existe en una ruta conocida" do
-      get "/api/v1/orders"
+      # Las órdenes no se pueden borrar: esa combinación de método y ruta no existe.
+      delete "/api/v1/orders/1"
 
       expect(response).to have_http_status(404)
       expect(error_body).to include("code" => "not_found")

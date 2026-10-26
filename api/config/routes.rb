@@ -7,9 +7,11 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      # Por ahora solo se puede crear órdenes; el listado y el detalle
-      # se agregan junto con el dashboard.
-      resources :orders, only: :create
+      # Crear órdenes (canales digitales) y consultarlas (dashboard):
+      #   GET  /api/v1/orders       listado paginado
+      #   GET  /api/v1/orders/:id   detalle
+      #   POST /api/v1/orders       crear
+      resources :orders, only: %i[index show create]
     end
   end
 
