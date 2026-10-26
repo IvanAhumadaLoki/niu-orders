@@ -2950,3 +2950,1701 @@ Processing by Rails::HealthController#show as */*
 Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
 
 
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:07:53 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:08:03 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:08:13 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:08:23 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:08:36 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:08:46 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:08:58 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:09:09 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:09:19 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:09:29 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:09:39 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:09:49 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:09:59 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:10:11 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:10:21 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:10:32 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:10:43 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:10:53 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:11:03 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:11:13 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 151ms (Views: 125.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 118.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:11:24 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 121ms (Views: 120.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 118.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:11:34 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:11:44 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:11:55 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:12:05 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:12:15 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:12:25 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:12:35 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:12:45 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:12:59 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 198ms (Views: 197.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 193.7ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:13:09 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.2ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:13:20 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:13:31 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:13:41 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:13:54 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 6.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:14:04 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:14:14 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:14:25 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:14:35 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:14:45 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:15:00 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:15:10 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:15:20 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:15:33 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 32ms (Views: 23.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:15:44 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:15:54 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:16:05 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 4.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:16:15 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:16:25 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:16:35 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:16:47 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:16:57 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:17:08 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:17:18 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:17:30 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:17:40 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 26ms (Views: 16.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:17:51 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:18:01 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:18:11 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:18:22 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:18:34 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 21ms (Views: 7.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:18:45 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 3.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:18:55 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.2ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 9.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:19:06 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:19:15 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:19:25 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:19:35 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:19:46 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:19:56 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:20:06 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:20:18 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:20:29 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:20:39 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:20:49 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:20:59 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:21:10 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:21:20 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:21:30 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:21:43 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:21:53 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:22:03 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:22:20 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:22:31 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:22:44 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 2.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:22:54 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.2ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:23:04 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 41ms (Views: 38.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:23:15 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:23:25 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:23:35 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:23:45 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:23:55 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:23:58 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>1, "order_type"=>"pickup", "customer"=>{"name"=>"Felipe Rojas", "phone"=>"+56911958584"}, "items"=>[{"product_id"=>5, "quantity"=>4}, {"product_id"=>2, "quantity"=>5}], "order"=>{"restaurant_id"=>1, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d753b4b8>, params: {"restaurant_id"=>1, "order_type"=>"pickup", "customer"=>{"name"=>"Felipe Rojas", "phone"=>"+56911958584"}, "items"=>[{"product_id"=>5, "quantity"=>4}, {"product_id"=>2, "quantity"=>5}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>1, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (20.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (13.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (3.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (24.5ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (1, 'pickup', 'Felipe Rojas', '+56911958584', NULL, 55410, 'pending', 0, NULL, NULL, '2026-10-26 04:24:05.028943', '2026-10-26 04:24:05.028943') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (11.1ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (9, 5, 4, 4490, 17960, '2026-10-26 04:24:05.096051', '2026-10-26 04:24:05.096051') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.9ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (9, 2, 5, 7490, 37450, '2026-10-26 04:24:05.170833', '2026-10-26 04:24:05.170833') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 4381ms (Views: 0.3ms | ActiveRecord: 853.0ms (6 queries, 0 cached) | GC: 3504.8ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:05 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Nicolás Silva", "phone"=>"+56972124170"}, "items"=>[{"product_id"=>4, "quantity"=>1}], "delivery_address"=>"Av. Apoquindo 7930, Santiago", "order"=>{"restaurant_id"=>2, "order_type"=>"delivery", "delivery_address"=>"Av. Apoquindo 7930, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d76fd3f0>, params: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Nicolás Silva", "phone"=>"+56972124170"}, "items"=>[{"product_id"=>4, "quantity"=>1}], "delivery_address"=>"Av. Apoquindo 7930, Santiago", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>2, "order_type"=>"delivery", "delivery_address"=>"Av. Apoquindo 7930, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (3.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (2.6ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (2, 'delivery', 'Nicolás Silva', '+56972124170', 'Av. Apoquindo 7930, Santiago', 3990, 'pending', 0, NULL, NULL, '2026-10-26 04:24:05.346615', '2026-10-26 04:24:05.346615') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (10, 4, 1, 3990, 3990, '2026-10-26 04:24:05.374960', '2026-10-26 04:24:05.374960') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (11.0ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 122ms (Views: 0.2ms | ActiveRecord: 18.9ms (4 queries, 0 cached) | GC: 29.8ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:05 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>3, "order_type"=>"pickup", "customer"=>{"name"=>"Sebastián Pérez", "phone"=>"+56981934369"}, "items"=>[{"product_id"=>10, "quantity"=>2}], "order"=>{"restaurant_id"=>3, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d750b1a0>, params: {"restaurant_id"=>3, "order_type"=>"pickup", "customer"=>{"name"=>"Sebastián Pérez", "phone"=>"+56981934369"}, "items"=>[{"product_id"=>10, "quantity"=>2}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>3, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (9.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 10 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (42.8ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (3, 'pickup', 'Sebastián Pérez', '+56981934369', NULL, 3180, 'pending', 0, NULL, NULL, '2026-10-26 04:24:05.440353', '2026-10-26 04:24:05.440353') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (2.1ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (11, 10, 2, 1590, 3180, '2026-10-26 04:24:05.489493', '2026-10-26 04:24:05.489493') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (11.4ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 95ms (Views: 0.2ms | ActiveRecord: 67.2ms (4 queries, 0 cached) | GC: 0.5ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:05 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>1, "order_type"=>"delivery", "customer"=>{"name"=>"Felipe Díaz", "phone"=>"+56974659991"}, "items"=>[{"product_id"=>7, "quantity"=>3}, {"product_id"=>5, "quantity"=>2}, {"product_id"=>1, "quantity"=>3}, {"product_id"=>3, "quantity"=>4}], "delivery_address"=>"Calle Monjitas 2207, Santiago", "order"=>{"restaurant_id"=>1, "order_type"=>"delivery", "delivery_address"=>"Calle Monjitas 2207, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d778b740>, params: {"restaurant_id"=>1, "order_type"=>"delivery", "customer"=>{"name"=>"Felipe Díaz", "phone"=>"+56974659991"}, "items"=>[{"product_id"=>7, "quantity"=>3}, {"product_id"=>5, "quantity"=>2}, {"product_id"=>1, "quantity"=>3}, {"product_id"=>3, "quantity"=>4}], "delivery_address"=>"Calle Monjitas 2207, Santiago", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>1, "order_type"=>"delivery", "delivery_address"=>"Calle Monjitas 2207, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (2.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (0.7ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (1, 'delivery', 'Felipe Díaz', '+56974659991', 'Calle Monjitas 2207, Santiago', 93880, 'pending', 0, NULL, NULL, '2026-10-26 04:24:05.561487', '2026-10-26 04:24:05.561487') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (12, 7, 3, 9990, 29970, '2026-10-26 04:24:05.564365', '2026-10-26 04:24:05.564365') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (1.2ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (12, 5, 2, 4490, 8980, '2026-10-26 04:24:05.566848', '2026-10-26 04:24:05.566848') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.5ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (12, 1, 3, 8990, 26970, '2026-10-26 04:24:05.575420', '2026-10-26 04:24:05.575420') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (12, 3, 4, 6990, 27960, '2026-10-26 04:24:05.578033', '2026-10-26 04:24:05.578033') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (52.3ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 127ms (Views: 0.6ms | ActiveRecord: 62.3ms (10 queries, 0 cached) | GC: 2.3ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:05 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>2, "order_type"=>"pickup", "customer"=>{"name"=>"Camila Martínez", "phone"=>"+56920354317"}, "items"=>[{"product_id"=>10, "quantity"=>2}, {"product_id"=>4, "quantity"=>2}, {"product_id"=>9, "quantity"=>4}, {"product_id"=>5, "quantity"=>3}], "order"=>{"restaurant_id"=>2, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1e51479e8>, params: {"restaurant_id"=>2, "order_type"=>"pickup", "customer"=>{"name"=>"Camila Martínez", "phone"=>"+56920354317"}, "items"=>[{"product_id"=>10, "quantity"=>2}, {"product_id"=>4, "quantity"=>2}, {"product_id"=>9, "quantity"=>4}, {"product_id"=>5, "quantity"=>3}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>2, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (44.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 10 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 9 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (0.7ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (2, 'pickup', 'Camila Martínez', '+56920354317', NULL, 32590, 'pending', 0, NULL, NULL, '2026-10-26 04:24:05.754482', '2026-10-26 04:24:05.754482') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.6ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (13, 10, 2, 1590, 3180, '2026-10-26 04:24:05.757222', '2026-10-26 04:24:05.757222') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.5ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (13, 4, 2, 3990, 7980, '2026-10-26 04:24:05.759831', '2026-10-26 04:24:05.759831') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.6ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (13, 9, 4, 1990, 7960, '2026-10-26 04:24:05.762314', '2026-10-26 04:24:05.762314') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.6ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (13, 5, 3, 4490, 13470, '2026-10-26 04:24:05.766065', '2026-10-26 04:24:05.766065') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 98ms (Views: 0.2ms | ActiveRecord: 52.1ms (10 queries, 0 cached) | GC: 25.9ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:05 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>3, "order_type"=>"delivery", "customer"=>{"name"=>"Matías Muñoz", "phone"=>"+56900568018"}, "items"=>[{"product_id"=>2, "quantity"=>4}, {"product_id"=>5, "quantity"=>2}, {"product_id"=>7, "quantity"=>2}], "delivery_address"=>"Av. Apoquindo 2500, Santiago", "order"=>{"restaurant_id"=>3, "order_type"=>"delivery", "delivery_address"=>"Av. Apoquindo 2500, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d7494938>, params: {"restaurant_id"=>3, "order_type"=>"delivery", "customer"=>{"name"=>"Matías Muñoz", "phone"=>"+56900568018"}, "items"=>[{"product_id"=>2, "quantity"=>4}, {"product_id"=>5, "quantity"=>2}, {"product_id"=>7, "quantity"=>2}], "delivery_address"=>"Av. Apoquindo 2500, Santiago", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>3, "order_type"=>"delivery", "delivery_address"=>"Av. Apoquindo 2500, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (3.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (2.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (0.8ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (3, 'delivery', 'Matías Muñoz', '+56900568018', 'Av. Apoquindo 2500, Santiago', 58920, 'pending', 0, NULL, NULL, '2026-10-26 04:24:05.815227', '2026-10-26 04:24:05.815227') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (1.0ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (14, 2, 4, 7490, 29960, '2026-10-26 04:24:05.819903', '2026-10-26 04:24:05.819903') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.6ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (14, 5, 2, 4490, 8980, '2026-10-26 04:24:05.824508', '2026-10-26 04:24:05.824508') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.6ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (14, 7, 2, 9990, 19980, '2026-10-26 04:24:05.827514', '2026-10-26 04:24:05.827514') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 49ms (Views: 0.3ms | ActiveRecord: 12.6ms (8 queries, 0 cached) | GC: 1.6ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:05 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>1, "order_type"=>"pickup", "customer"=>{"name"=>"Nicolás Díaz", "phone"=>"+56937108766"}, "items"=>[{"product_id"=>1, "quantity"=>5}, {"product_id"=>6, "quantity"=>1}, {"product_id"=>2, "quantity"=>5}, {"product_id"=>9, "quantity"=>2}], "order"=>{"restaurant_id"=>1, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d764b6a0>, params: {"restaurant_id"=>1, "order_type"=>"pickup", "customer"=>{"name"=>"Nicolás Díaz", "phone"=>"+56937108766"}, "items"=>[{"product_id"=>1, "quantity"=>5}, {"product_id"=>6, "quantity"=>1}, {"product_id"=>2, "quantity"=>5}, {"product_id"=>9, "quantity"=>2}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>1, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (2.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (1.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 9 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (0.7ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (1, 'pickup', 'Nicolás Díaz', '+56937108766', NULL, 89670, 'pending', 0, NULL, NULL, '2026-10-26 04:24:05.879254', '2026-10-26 04:24:05.879254') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (15, 1, 5, 8990, 44950, '2026-10-26 04:24:05.882484', '2026-10-26 04:24:05.882484') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.8ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (15, 6, 1, 3290, 3290, '2026-10-26 04:24:05.895424', '2026-10-26 04:24:05.895424') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.9ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (15, 2, 5, 7490, 37450, '2026-10-26 04:24:05.899091', '2026-10-26 04:24:05.899091') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.8ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (15, 9, 2, 1990, 3980, '2026-10-26 04:24:05.906138', '2026-10-26 04:24:05.906138') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 69ms (Views: 0.2ms | ActiveRecord: 13.2ms (10 queries, 0 cached) | GC: 9.5ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:05 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Nicolás Contreras", "phone"=>"+56900754052"}, "items"=>[{"product_id"=>2, "quantity"=>4}, {"product_id"=>3, "quantity"=>4}], "delivery_address"=>"Av. Apoquindo 9169, Santiago", "order"=>{"restaurant_id"=>2, "order_type"=>"delivery", "delivery_address"=>"Av. Apoquindo 9169, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d7785b60>, params: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Nicolás Contreras", "phone"=>"+56900754052"}, "items"=>[{"product_id"=>2, "quantity"=>4}, {"product_id"=>3, "quantity"=>4}], "delivery_address"=>"Av. Apoquindo 9169, Santiago", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>2, "order_type"=>"delivery", "delivery_address"=>"Av. Apoquindo 9169, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (3.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (5.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (1.9ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (2, 'delivery', 'Nicolás Contreras', '+56900754052', 'Av. Apoquindo 9169, Santiago', 57920, 'pending', 0, NULL, NULL, '2026-10-26 04:24:05.950217', '2026-10-26 04:24:05.950217') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.9ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (16, 2, 4, 7490, 29960, '2026-10-26 04:24:05.957815', '2026-10-26 04:24:05.957815') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.9ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (16, 3, 4, 6990, 27960, '2026-10-26 04:24:05.962004', '2026-10-26 04:24:05.962004') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 48ms (Views: 0.2ms | ActiveRecord: 15.2ms (6 queries, 0 cached) | GC: 1.0ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:05 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>3, "order_type"=>"pickup", "customer"=>{"name"=>"Matías Pérez", "phone"=>"+56906511333"}, "items"=>[{"product_id"=>6, "quantity"=>2}, {"product_id"=>7, "quantity"=>1}], "order"=>{"restaurant_id"=>3, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d75387b8>, params: {"restaurant_id"=>3, "order_type"=>"pickup", "customer"=>{"name"=>"Matías Pérez", "phone"=>"+56906511333"}, "items"=>[{"product_id"=>6, "quantity"=>2}, {"product_id"=>7, "quantity"=>1}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>3, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (5.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (0.9ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (3, 'pickup', 'Matías Pérez', '+56906511333', NULL, 16570, 'pending', 0, NULL, NULL, '2026-10-26 04:24:06.006810', '2026-10-26 04:24:06.006810') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (17, 6, 2, 3290, 6580, '2026-10-26 04:24:06.010375', '2026-10-26 04:24:06.010375') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.6ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (17, 7, 1, 9990, 9990, '2026-10-26 04:24:06.013402', '2026-10-26 04:24:06.013402') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 43ms (Views: 0.2ms | ActiveRecord: 14.9ms (6 queries, 0 cached) | GC: 2.6ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:06 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>1, "order_type"=>"delivery", "customer"=>{"name"=>"Camila Silva", "phone"=>"+56965563829"}, "items"=>[{"product_id"=>3, "quantity"=>1}, {"product_id"=>6, "quantity"=>4}], "delivery_address"=>"Av. Pedro de Valdivia 7592, Santiago", "order"=>{"restaurant_id"=>1, "order_type"=>"delivery", "delivery_address"=>"Av. Pedro de Valdivia 7592, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d769f980>, params: {"restaurant_id"=>1, "order_type"=>"delivery", "customer"=>{"name"=>"Camila Silva", "phone"=>"+56965563829"}, "items"=>[{"product_id"=>3, "quantity"=>1}, {"product_id"=>6, "quantity"=>4}], "delivery_address"=>"Av. Pedro de Valdivia 7592, Santiago", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>1, "order_type"=>"delivery", "delivery_address"=>"Av. Pedro de Valdivia 7592, Santiago"}} }[0m
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (8.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (5.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (1.0ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (1, 'delivery', 'Camila Silva', '+56965563829', 'Av. Pedro de Valdivia 7592, Santiago', 20150, 'pending', 0, NULL, NULL, '2026-10-26 04:24:06.066383', '2026-10-26 04:24:06.066383') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (1.5ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (18, 3, 1, 6990, 6990, '2026-10-26 04:24:06.069732', '2026-10-26 04:24:06.069732') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (4.6ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (18, 6, 4, 3290, 13160, '2026-10-26 04:24:06.081444', '2026-10-26 04:24:06.081444') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 67ms (Views: 0.2ms | ActiveRecord: 25.4ms (6 queries, 0 cached) | GC: 7.5ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:06 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>999, "order_type"=>"pickup", "customer"=>{"name"=>"Diego Muñoz", "phone"=>"+56965382285"}, "items"=>[{"product_id"=>4, "quantity"=>5}, {"product_id"=>10, "quantity"=>2}, {"product_id"=>8, "quantity"=>3}, {"product_id"=>9, "quantity"=>3}], "order"=>{"restaurant_id"=>999, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d771d8f8>, params: {"restaurant_id"=>999, "order_type"=>"pickup", "customer"=>{"name"=>"Diego Muñoz", "phone"=>"+56965382285"}, "items"=>[{"product_id"=>4, "quantity"=>5}, {"product_id"=>10, "quantity"=>2}, {"product_id"=>8, "quantity"=>3}, {"product_id"=>9, "quantity"=>3}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>999, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (2.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 10 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 8 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (4.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 9 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 999 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:24:06 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Completed 422 Unprocessable Content in 621ms (Views: 0.2ms | ActiveRecord: 10.3ms (5 queries, 0 cached) | GC: 52.6ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:06 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>3, "order_type"=>"delivery", "customer"=>{"name"=>"Sebastián Contreras", "phone"=>"+56963287589"}, "items"=>[{"product_id"=>7, "quantity"=>4}, {"product_id"=>4, "quantity"=>4}], "delivery_address"=>"Av. Pedro de Valdivia 3923, Santiago", "order"=>{"restaurant_id"=>3, "order_type"=>"delivery", "delivery_address"=>"Av. Pedro de Valdivia 3923, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d749fab8>, params: {"restaurant_id"=>3, "order_type"=>"delivery", "customer"=>{"name"=>"Sebastián Contreras", "phone"=>"+56963287589"}, "items"=>[{"product_id"=>7, "quantity"=>4}, {"product_id"=>4, "quantity"=>4}], "delivery_address"=>"Av. Pedro de Valdivia 3923, Santiago", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>3, "order_type"=>"delivery", "delivery_address"=>"Av. Pedro de Valdivia 3923, Santiago"}} }[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (5.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (4.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (1.1ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (3, 'delivery', 'Sebastián Contreras', '+56963287589', 'Av. Pedro de Valdivia 3923, Santiago', 55920, 'pending', 0, NULL, NULL, '2026-10-26 04:24:06.757782', '2026-10-26 04:24:06.757782') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (1.2ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (19, 7, 4, 9990, 39960, '2026-10-26 04:24:06.765228', '2026-10-26 04:24:06.765228') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (5.5ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (19, 4, 4, 3990, 15960, '2026-10-26 04:24:06.784085', '2026-10-26 04:24:06.784085') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 82ms (Views: 0.4ms | ActiveRecord: 22.0ms (6 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:06 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>1, "order_type"=>"pickup", "customer"=>{"name"=>"Sebastián Pérez", "phone"=>"+56927336936"}, "items"=>[{"product_id"=>7, "quantity"=>2}, {"product_id"=>6, "quantity"=>3}, {"product_id"=>4, "quantity"=>1}], "order"=>{"restaurant_id"=>1, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1e5b97128>, params: {"restaurant_id"=>1, "order_type"=>"pickup", "customer"=>{"name"=>"Sebastián Pérez", "phone"=>"+56927336936"}, "items"=>[{"product_id"=>7, "quantity"=>2}, {"product_id"=>6, "quantity"=>3}, {"product_id"=>4, "quantity"=>1}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>1, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (6.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (0.8ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (1, 'pickup', 'Sebastián Pérez', '+56927336936', NULL, 33840, 'pending', 0, NULL, NULL, '2026-10-26 04:24:06.885324', '2026-10-26 04:24:06.885324') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (20, 7, 2, 9990, 19980, '2026-10-26 04:24:06.889102', '2026-10-26 04:24:06.889102') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.8ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (20, 6, 3, 3290, 9870, '2026-10-26 04:24:06.894158', '2026-10-26 04:24:06.894158') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.8ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (20, 4, 1, 3990, 3990, '2026-10-26 04:24:06.905430', '2026-10-26 04:24:06.905430') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 79ms (Views: 0.3ms | ActiveRecord: 16.5ms (8 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:06 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Constanza Martínez", "phone"=>"+56969099485"}, "items"=>[{"product_id"=>6, "quantity"=>2}, {"product_id"=>1, "quantity"=>1}], "delivery_address"=>"Av. Pedro de Valdivia 1281, Santiago", "order"=>{"restaurant_id"=>2, "order_type"=>"delivery", "delivery_address"=>"Av. Pedro de Valdivia 1281, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d6b74420>, params: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Constanza Martínez", "phone"=>"+56969099485"}, "items"=>[{"product_id"=>6, "quantity"=>2}, {"product_id"=>1, "quantity"=>1}], "delivery_address"=>"Av. Pedro de Valdivia 1281, Santiago", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>2, "order_type"=>"delivery", "delivery_address"=>"Av. Pedro de Valdivia 1281, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (9.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (1.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (0.7ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (2, 'delivery', 'Constanza Martínez', '+56969099485', 'Av. Pedro de Valdivia 1281, Santiago', 15570, 'pending', 0, NULL, NULL, '2026-10-26 04:24:06.960607', '2026-10-26 04:24:06.960607') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (1.1ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (21, 6, 2, 3290, 6580, '2026-10-26 04:24:06.963689', '2026-10-26 04:24:06.963689') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (21, 1, 1, 8990, 8990, '2026-10-26 04:24:06.971498', '2026-10-26 04:24:06.971498') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 54ms (Views: 0.2ms | ActiveRecord: 16.6ms (6 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:06 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>3, "order_type"=>"pickup", "customer"=>{"name"=>"Constanza Contreras", "phone"=>"+56990604110"}, "items"=>[{"product_id"=>6, "quantity"=>0}], "order"=>{"restaurant_id"=>3, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d6ae2c78>, params: {"restaurant_id"=>3, "order_type"=>"pickup", "customer"=>{"name"=>"Constanza Contreras", "phone"=>"+56990604110"}, "items"=>[{"product_id"=>6, "quantity"=>0}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>3, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (2.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 422 Unprocessable Content in 17ms (Views: 0.2ms | ActiveRecord: 4.1ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:07 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>1, "order_type"=>"delivery", "customer"=>{"name"=>"Javiera Sepúlveda", "phone"=>"+56909572503"}, "items"=>[{"product_id"=>6, "quantity"=>1}], "delivery_address"=>"Av. Los Leones 9105, Santiago", "order"=>{"restaurant_id"=>1, "order_type"=>"delivery", "delivery_address"=>"Av. Los Leones 9105, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d6a965f8>, params: {"restaurant_id"=>1, "order_type"=>"delivery", "customer"=>{"name"=>"Javiera Sepúlveda", "phone"=>"+56909572503"}, "items"=>[{"product_id"=>6, "quantity"=>1}], "delivery_address"=>"Av. Los Leones 9105, Santiago", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>1, "order_type"=>"delivery", "delivery_address"=>"Av. Los Leones 9105, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (6.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (1.5ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (1, 'delivery', 'Javiera Sepúlveda', '+56909572503', 'Av. Los Leones 9105, Santiago', 3290, 'pending', 0, NULL, NULL, '2026-10-26 04:24:07.039282', '2026-10-26 04:24:07.039282') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (22, 6, 1, 3290, 3290, '2026-10-26 04:24:07.046911', '2026-10-26 04:24:07.046911') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 47ms (Views: 0.2ms | ActiveRecord: 11.9ms (4 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:07 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>2, "order_type"=>"pickup", "customer"=>{"name"=>"Sebastián González", "phone"=>"+56962731781"}, "items"=>[{"product_id"=>3, "quantity"=>2}, {"product_id"=>8, "quantity"=>2}], "order"=>{"restaurant_id"=>2, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d6a39b00>, params: {"restaurant_id"=>2, "order_type"=>"pickup", "customer"=>{"name"=>"Sebastián González", "phone"=>"+56962731781"}, "items"=>[{"product_id"=>3, "quantity"=>2}, {"product_id"=>8, "quantity"=>2}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>2, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (6.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 8 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (0.7ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (2, 'pickup', 'Sebastián González', '+56962731781', NULL, 31960, 'pending', 0, NULL, NULL, '2026-10-26 04:24:07.099278', '2026-10-26 04:24:07.099278') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (23, 3, 2, 6990, 13980, '2026-10-26 04:24:07.104505', '2026-10-26 04:24:07.104505') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.6ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (23, 8, 2, 8990, 17980, '2026-10-26 04:24:07.121892', '2026-10-26 04:24:07.121892') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 59ms (Views: 0.2ms | ActiveRecord: 12.8ms (6 queries, 0 cached) | GC: 15.2ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:07 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>3, "order_type"=>"delivery", "customer"=>{"name"=>"Sebastián Díaz", "phone"=>"+56938956562"}, "items"=>[{"product_id"=>3, "quantity"=>5}, {"product_id"=>1, "quantity"=>1}, {"product_id"=>5, "quantity"=>2}], "delivery_address"=>"Av. Apoquindo 9973, Santiago", "order"=>{"restaurant_id"=>3, "order_type"=>"delivery", "delivery_address"=>"Av. Apoquindo 9973, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d6a44438>, params: {"restaurant_id"=>3, "order_type"=>"delivery", "customer"=>{"name"=>"Sebastián Díaz", "phone"=>"+56938956562"}, "items"=>[{"product_id"=>3, "quantity"=>5}, {"product_id"=>1, "quantity"=>1}, {"product_id"=>5, "quantity"=>2}], "delivery_address"=>"Av. Apoquindo 9973, Santiago", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>3, "order_type"=>"delivery", "delivery_address"=>"Av. Apoquindo 9973, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (4.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (2.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (0.9ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (3, 'delivery', 'Sebastián Díaz', '+56938956562', 'Av. Apoquindo 9973, Santiago', 52920, 'pending', 0, NULL, NULL, '2026-10-26 04:24:07.174356', '2026-10-26 04:24:07.174356') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.9ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (24, 3, 5, 6990, 34950, '2026-10-26 04:24:07.178025', '2026-10-26 04:24:07.178025') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.9ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (24, 1, 1, 8990, 8990, '2026-10-26 04:24:07.182191', '2026-10-26 04:24:07.182191') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (24, 5, 2, 4490, 8980, '2026-10-26 04:24:07.187991', '2026-10-26 04:24:07.187991') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 57ms (Views: 0.2ms | ActiveRecord: 14.4ms (8 queries, 0 cached) | GC: 0.6ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:07 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>1, "order_type"=>"pickup", "customer"=>{"name"=>"Javiera González", "phone"=>"+56904560648"}, "items"=>[{"product_id"=>8, "quantity"=>5}, {"product_id"=>4, "quantity"=>3}, {"product_id"=>2, "quantity"=>4}, {"product_id"=>9, "quantity"=>5}], "order"=>{"restaurant_id"=>1, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d6b4c3a8>, params: {"restaurant_id"=>1, "order_type"=>"pickup", "customer"=>{"name"=>"Javiera González", "phone"=>"+56904560648"}, "items"=>[{"product_id"=>8, "quantity"=>5}, {"product_id"=>4, "quantity"=>3}, {"product_id"=>2, "quantity"=>4}, {"product_id"=>9, "quantity"=>5}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>1, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (2.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 8 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (3.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 9 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (0.8ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (1, 'pickup', 'Javiera González', '+56904560648', NULL, 96830, 'pending', 0, NULL, NULL, '2026-10-26 04:24:07.246234', '2026-10-26 04:24:07.246234') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (1.0ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (25, 8, 5, 8990, 44950, '2026-10-26 04:24:07.252838', '2026-10-26 04:24:07.252838') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (25, 4, 3, 3990, 11970, '2026-10-26 04:24:07.257789', '2026-10-26 04:24:07.257789') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (1.0ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (25, 2, 4, 7490, 29960, '2026-10-26 04:24:07.262034', '2026-10-26 04:24:07.262034') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (0.9ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (25, 9, 5, 1990, 9950, '2026-10-26 04:24:07.271452', '2026-10-26 04:24:07.271452') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 75ms (Views: 0.3ms | ActiveRecord: 16.4ms (10 queries, 0 cached) | GC: 1.1ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 04:24:07 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Javiera Pérez", "phone"=>"+56958173348"}, "items"=>[{"product_id"=>7, "quantity"=>3}], "order"=>{"restaurant_id"=>2, "order_type"=>"delivery"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007dc1d76426e0>, params: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Javiera Pérez", "phone"=>"+56958173348"}, "items"=>[{"product_id"=>7, "quantity"=>3}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>2, "order_type"=>"delivery"}} }[0m
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (7.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 422 Unprocessable Content in 32ms (Views: 0.1ms | ActiveRecord: 10.1ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mOrder Load (3.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 12 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrder Update All (14.5ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:08.826144' WHERE "orders"."id" = 12 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mOrder Load (984.8ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 11 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrder Load (990.6ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 9 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrder Load (999.8ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 10 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrder Update All (4.6ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.051566' WHERE "orders"."id" = 9 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mOrder Load (1016.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 13 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrder Update All (6.3ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.061255' WHERE "orders"."id" = 10 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mRestaurant Load (2.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mOrder Update All (4.8ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.077717' WHERE "orders"."id" = 13 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mOrder Update All (6.6ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.040365' WHERE "orders"."id" = 11 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mRestaurant Load (1.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mRestaurant Load (1.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mRestaurant Load (2.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mOrderItem Load (3.8ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 12 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mOrderItem Load (4.9ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 10 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mOrderItem Load (3.8ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 9 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mRestaurant Load (5.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mOrderItem Load (14.5ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 11 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mOrderItem Load (3.4ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 13 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mProduct Load (2.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 10 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (2.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+Started POST "/mock_store/LCON/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 10 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>10, "restaurant"=>{"id"=>2, "code"=>"LCON", "name"=>"Niu Foods Las Condes"}, "order_type"=>"delivery", "customer"=>{"name"=>"Nicolás Silva", "phone"=>"+56972124170"}, "delivery_address"=>"Av. Apoquindo 7930, Santiago", "total_clp"=>3990, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:05Z", "items"=>[{"product_id"=>4, "name"=>"Nigiri Salmón x2", "sku"=>"SKU-004", "quantity"=>1, "unit_price_clp"=>3990, "subtotal_clp"=>3990}], "store_code"=>"LCON", "order"=>{"id"=>10, "order_type"=>"delivery", "delivery_address"=>"Av. Apoquindo 7930, Santiago", "total_clp"=>3990, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:05Z"}}
+  [1m[36mProduct Load (1.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*application='Api'*/[0m
+Started POST "/mock_store/NUNO/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  [1m[36mRestaurant Load (2.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'LCON' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+  [1m[36mProduct Load (1.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+Started POST "/mock_store/PROV/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 9 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+[MockStore LCON] Orden #10 recibida: delivery, total 3990 CLP, 1 ítem(s)
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 2.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*application='Api'*/[0m
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>11, "restaurant"=>{"id"=>3, "code"=>"NUNO", "name"=>"Niu Foods Ñuñoa"}, "order_type"=>"pickup", "customer"=>{"name"=>"Sebastián Pérez", "phone"=>"+56981934369"}, "delivery_address"=>nil, "total_clp"=>3180, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:05Z", "items"=>[{"product_id"=>10, "name"=>"Agua Mineral 500 ml", "sku"=>"SKU-010", "quantity"=>2, "unit_price_clp"=>1590, "subtotal_clp"=>3180}], "store_code"=>"NUNO", "order"=>{"id"=>11, "order_type"=>"pickup", "delivery_address"=>nil, "total_clp"=>3180, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:05Z"}}
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+Processing by MockStore::OrdersController#create as JSON
+  [1m[36mRestaurant Load (2.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'NUNO' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  Parameters: {"id"=>9, "restaurant"=>{"id"=>1, "code"=>"PROV", "name"=>"Niu Foods Providencia"}, "order_type"=>"pickup", "customer"=>{"name"=>"Felipe Rojas", "phone"=>"+56911958584"}, "delivery_address"=>nil, "total_clp"=>55410, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:05Z", "items"=>[{"product_id"=>5, "name"=>"Gyozas de Pollo x5", "sku"=>"SKU-005", "quantity"=>4, "unit_price_clp"=>4490, "subtotal_clp"=>17960}, {"product_id"=>2, "name"=>"California Ebi", "sku"=>"SKU-002", "quantity"=>5, "unit_price_clp"=>7490, "subtotal_clp"=>37450}], "store_code"=>"PROV", "order"=>{"id"=>9, "order_type"=>"pickup", "delivery_address"=>nil, "total_clp"=>55410, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:05Z"}}
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update (7.5ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.202093', "updated_at" = '2026-10-26 04:24:09.203167' WHERE "orders"."id" = 10 /*application='Api'*/[0m
+Started POST "/mock_store/PROV/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+[MockStore NUNO] Orden #11 recibida: pickup, total 3180 CLP, 1 ítem(s)
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 2.7ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+Started POST "/mock_store/LCON/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+Processing by MockStore::OrdersController#create as JSON
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+Processing by MockStore::OrdersController#create as JSON
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  Parameters: {"id"=>12, "restaurant"=>{"id"=>1, "code"=>"PROV", "name"=>"Niu Foods Providencia"}, "order_type"=>"delivery", "customer"=>{"name"=>"Felipe Díaz", "phone"=>"+56974659991"}, "delivery_address"=>"Calle Monjitas 2207, Santiago", "total_clp"=>93880, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:05Z", "items"=>[{"product_id"=>7, "name"=>"Bowl Salmón Teriyaki", "sku"=>"SKU-007", "quantity"=>3, "unit_price_clp"=>9990, "subtotal_clp"=>29970}, {"product_id"=>5, "name"=>"Gyozas de Pollo x5", "sku"=>"SKU-005", "quantity"=>2, "unit_price_clp"=>4490, "subtotal_clp"=>8980}, {"product_id"=>1, "name"=>"Niu Roll Salmón", "sku"=>"SKU-001", "quantity"=>3, "unit_price_clp"=>8990, "subtotal_clp"=>26970}, {"product_id"=>3, "name"=>"Avocado Roll", "sku"=>"SKU-003", "quantity"=>4, "unit_price_clp"=>6990, "subtotal_clp"=>27960}], "store_code"=>"PROV", "order"=>{"id"=>12, "order_type"=>"delivery", "delivery_address"=>"Calle Monjitas 2207, Santiago", "total_clp"=>93880, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:05Z"}}
+  [1m[36mOrder Update (3.5ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.221098', "updated_at" = '2026-10-26 04:24:09.221468' WHERE "orders"."id" = 11 /*application='Api'*/[0m
+  Parameters: {"id"=>13, "restaurant"=>{"id"=>2, "code"=>"LCON", "name"=>"Niu Foods Las Condes"}, "order_type"=>"pickup", "customer"=>{"name"=>"Camila Martínez", "phone"=>"+56920354317"}, "delivery_address"=>nil, "total_clp"=>32590, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:05Z", "items"=>[{"product_id"=>10, "name"=>"Agua Mineral 500 ml", "sku"=>"SKU-010", "quantity"=>2, "unit_price_clp"=>1590, "subtotal_clp"=>3180}, {"product_id"=>4, "name"=>"Nigiri Salmón x2", "sku"=>"SKU-004", "quantity"=>2, "unit_price_clp"=>3990, "subtotal_clp"=>7980}, {"product_id"=>9, "name"=>"Bebida 350 ml", "sku"=>"SKU-009", "quantity"=>4, "unit_price_clp"=>1990, "subtotal_clp"=>7960}, {"product_id"=>5, "name"=>"Gyozas de Pollo x5", "sku"=>"SKU-005", "quantity"=>3, "unit_price_clp"=>4490, "subtotal_clp"=>13470}], "store_code"=>"LCON", "order"=>{"id"=>13, "order_type"=>"pickup", "delivery_address"=>nil, "total_clp"=>32590, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:05Z"}}
+  [1m[36mRestaurant Load (1.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'PROV' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+  [1m[36mOrder Load (1.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 14 LIMIT 1 /*application='Api'*/[0m
+[MockStore PROV] Orden #12 recibida: delivery, total 93880 CLP, 4 ítem(s)
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update All (3.9ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.235193' WHERE "orders"."id" = 14 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mOrder Load (2.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 15 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrder Update (8.1ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.236298', "updated_at" = '2026-10-26 04:24:09.236804' WHERE "orders"."id" = 12 /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mRestaurant Load (3.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mOrder Update All (3.1ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.246837' WHERE "orders"."id" = 15 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mOrderItem Load (0.9ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 14 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'PROV' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  [1m[36mProduct Load (2.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+[MockStore PROV] Orden #9 recibida: pickup, total 55410 CLP, 2 ítem(s)
+  [1m[36mOrderItem Load (2.0ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 15 /*application='Api'*/[0m
+Completed 200 OK in 55ms (Views: 0.3ms | ActiveRecord: 9.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mProduct Load (1.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'LCON' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore LCON] Orden #13 recibida: pickup, total 32590 CLP, 4 ítem(s)
+Completed 200 OK in 49ms (Views: 0.2ms | ActiveRecord: 9.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mProduct Load (4.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*application='Api'*/[0m
+Started POST "/mock_store/NUNO/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mOrder Update (22.6ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.268317', "updated_at" = '2026-10-26 04:24:09.268745' WHERE "orders"."id" = 9 /*application='Api'*/[0m
+Processing by MockStore::OrdersController#create as JSON
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  Parameters: {"id"=>14, "restaurant"=>{"id"=>3, "code"=>"NUNO", "name"=>"Niu Foods Ñuñoa"}, "order_type"=>"delivery", "customer"=>{"name"=>"Matías Muñoz", "phone"=>"+56900568018"}, "delivery_address"=>"Av. Apoquindo 2500, Santiago", "total_clp"=>58920, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:05Z", "items"=>[{"product_id"=>2, "name"=>"California Ebi", "sku"=>"SKU-002", "quantity"=>4, "unit_price_clp"=>7490, "subtotal_clp"=>29960}, {"product_id"=>5, "name"=>"Gyozas de Pollo x5", "sku"=>"SKU-005", "quantity"=>2, "unit_price_clp"=>4490, "subtotal_clp"=>8980}, {"product_id"=>7, "name"=>"Bowl Salmón Teriyaki", "sku"=>"SKU-007", "quantity"=>2, "unit_price_clp"=>9990, "subtotal_clp"=>19980}], "store_code"=>"NUNO", "order"=>{"id"=>14, "order_type"=>"delivery", "delivery_address"=>"Av. Apoquindo 2500, Santiago", "total_clp"=>58920, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:05Z"}}
+  [1m[36mProduct Load (2.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'NUNO' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+[MockStore NUNO] Orden #14 recibida: delivery, total 58920 CLP, 3 ítem(s)
+  [1m[36mProduct Load (1.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 9 LIMIT 1 /*application='Api'*/[0m
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+Started POST "/mock_store/PROV/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update (21.5ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.289978', "updated_at" = '2026-10-26 04:24:09.290286' WHERE "orders"."id" = 13 /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>15, "restaurant"=>{"id"=>1, "code"=>"PROV", "name"=>"Niu Foods Providencia"}, "order_type"=>"pickup", "customer"=>{"name"=>"Nicolás Díaz", "phone"=>"+56937108766"}, "delivery_address"=>nil, "total_clp"=>89670, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:05Z", "items"=>[{"product_id"=>1, "name"=>"Niu Roll Salmón", "sku"=>"SKU-001", "quantity"=>5, "unit_price_clp"=>8990, "subtotal_clp"=>44950}, {"product_id"=>6, "name"=>"Edamame", "sku"=>"SKU-006", "quantity"=>1, "unit_price_clp"=>3290, "subtotal_clp"=>3290}, {"product_id"=>2, "name"=>"California Ebi", "sku"=>"SKU-002", "quantity"=>5, "unit_price_clp"=>7490, "subtotal_clp"=>37450}, {"product_id"=>9, "name"=>"Bebida 350 ml", "sku"=>"SKU-009", "quantity"=>2, "unit_price_clp"=>1990, "subtotal_clp"=>3980}], "store_code"=>"PROV", "order"=>{"id"=>15, "order_type"=>"pickup", "delivery_address"=>nil, "total_clp"=>89670, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:05Z"}}
+  [1m[36mOrder Update (4.8ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.308550', "updated_at" = '2026-10-26 04:24:09.308885' WHERE "orders"."id" = 14 /*application='Api'*/[0m
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'PROV' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore PROV] Orden #15 recibida: pickup, total 89670 CLP, 4 ítem(s)
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (5.0ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Load (1.9ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 16 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrder Update (3.7ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.321117', "updated_at" = '2026-10-26 04:24:09.321464' WHERE "orders"."id" = 15 /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update All (2.9ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.329127' WHERE "orders"."id" = 16 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mOrderItem Load (1.5ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 16 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mOrder Load (0.9ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 17 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+Started POST "/mock_store/LCON/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>16, "restaurant"=>{"id"=>2, "code"=>"LCON", "name"=>"Niu Foods Las Condes"}, "order_type"=>"delivery", "customer"=>{"name"=>"Nicolás Contreras", "phone"=>"+56900754052"}, "delivery_address"=>"Av. Apoquindo 9169, Santiago", "total_clp"=>57920, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:05Z", "items"=>[{"product_id"=>2, "name"=>"California Ebi", "sku"=>"SKU-002", "quantity"=>4, "unit_price_clp"=>7490, "subtotal_clp"=>29960}, {"product_id"=>3, "name"=>"Avocado Roll", "sku"=>"SKU-003", "quantity"=>4, "unit_price_clp"=>6990, "subtotal_clp"=>27960}], "store_code"=>"LCON", "order"=>{"id"=>16, "order_type"=>"delivery", "delivery_address"=>"Av. Apoquindo 9169, Santiago", "total_clp"=>57920, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:05Z"}}
+  [1m[36mOrder Update All (2.9ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.357124' WHERE "orders"."id" = 17 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'LCON' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+  [1m[36mOrder Load (1.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 18 LIMIT 1 /*application='Api'*/[0m
+[MockStore LCON] Orden #16 recibida: delivery, total 57920 CLP, 2 ítem(s)
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mOrder Update All (3.6ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.366000' WHERE "orders"."id" = 18 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mOrder Load (2.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 19 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrderItem Load (1.0ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 17 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Load (1.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 20 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mOrder Update All (3.0ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.373226' WHERE "orders"."id" = 19 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mOrder Update All (2.2ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.379710' WHERE "orders"."id" = 20 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mOrder Update (10.1ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.367631', "updated_at" = '2026-10-26 04:24:09.368019' WHERE "orders"."id" = 16 /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+Started POST "/mock_store/NUNO/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  [1m[36mRestaurant Load (7.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>17, "restaurant"=>{"id"=>3, "code"=>"NUNO", "name"=>"Niu Foods Ñuñoa"}, "order_type"=>"pickup", "customer"=>{"name"=>"Matías Pérez", "phone"=>"+56906511333"}, "delivery_address"=>nil, "total_clp"=>16570, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:06Z", "items"=>[{"product_id"=>6, "name"=>"Edamame", "sku"=>"SKU-006", "quantity"=>2, "unit_price_clp"=>3290, "subtotal_clp"=>6580}, {"product_id"=>7, "name"=>"Bowl Salmón Teriyaki", "sku"=>"SKU-007", "quantity"=>1, "unit_price_clp"=>9990, "subtotal_clp"=>9990}], "store_code"=>"NUNO", "order"=>{"id"=>17, "order_type"=>"pickup", "delivery_address"=>nil, "total_clp"=>16570, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:06Z"}}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'NUNO' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  [1m[36mOrderItem Load (0.9ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 18 /*application='Api'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+[MockStore NUNO] Orden #17 recibida: pickup, total 16570 CLP, 2 ítem(s)
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrderItem Load (1.2ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 19 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mRestaurant Load (1.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (2.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mOrderItem Load (1.5ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 20 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mProduct Load (1.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 7 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+Started POST "/mock_store/PROV/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*application='Api'*/[0m
+Processing by MockStore::OrdersController#create as JSON
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  Parameters: {"id"=>18, "restaurant"=>{"id"=>1, "code"=>"PROV", "name"=>"Niu Foods Providencia"}, "order_type"=>"delivery", "customer"=>{"name"=>"Camila Silva", "phone"=>"+56965563829"}, "delivery_address"=>"Av. Pedro de Valdivia 7592, Santiago", "total_clp"=>20150, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:06Z", "items"=>[{"product_id"=>3, "name"=>"Avocado Roll", "sku"=>"SKU-003", "quantity"=>1, "unit_price_clp"=>6990, "subtotal_clp"=>6990}, {"product_id"=>6, "name"=>"Edamame", "sku"=>"SKU-006", "quantity"=>4, "unit_price_clp"=>3290, "subtotal_clp"=>13160}], "store_code"=>"PROV", "order"=>{"id"=>18, "order_type"=>"delivery", "delivery_address"=>"Av. Pedro de Valdivia 7592, Santiago", "total_clp"=>20150, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:06Z"}}
+Started POST "/mock_store/NUNO/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  [1m[36mOrder Update (27.3ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.405033', "updated_at" = '2026-10-26 04:24:09.405476' WHERE "orders"."id" = 17 /*application='Api'*/[0m
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'PROV' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore PROV] Orden #18 recibida: delivery, total 20150 CLP, 2 ítem(s)
+  [1m[36mOrder Load (2.6ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 21 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>19, "restaurant"=>{"id"=>3, "code"=>"NUNO", "name"=>"Niu Foods Ñuñoa"}, "order_type"=>"delivery", "customer"=>{"name"=>"Sebastián Contreras", "phone"=>"+56963287589"}, "delivery_address"=>"Av. Pedro de Valdivia 3923, Santiago", "total_clp"=>55920, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:06Z", "items"=>[{"product_id"=>7, "name"=>"Bowl Salmón Teriyaki", "sku"=>"SKU-007", "quantity"=>4, "unit_price_clp"=>9990, "subtotal_clp"=>39960}, {"product_id"=>4, "name"=>"Nigiri Salmón x2", "sku"=>"SKU-004", "quantity"=>4, "unit_price_clp"=>3990, "subtotal_clp"=>15960}], "store_code"=>"NUNO", "order"=>{"id"=>19, "order_type"=>"delivery", "delivery_address"=>"Av. Pedro de Valdivia 3923, Santiago", "total_clp"=>55920, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:06Z"}}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'NUNO' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore NUNO] Orden #19 recibida: delivery, total 55920 CLP, 2 ítem(s)
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mOrder Update All (5.8ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.440691' WHERE "orders"."id" = 21 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+Started POST "/mock_store/PROV/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update (7.0ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.448631', "updated_at" = '2026-10-26 04:24:09.449005' WHERE "orders"."id" = 19 /*application='Api'*/[0m
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>20, "restaurant"=>{"id"=>1, "code"=>"PROV", "name"=>"Niu Foods Providencia"}, "order_type"=>"pickup", "customer"=>{"name"=>"Sebastián Pérez", "phone"=>"+56927336936"}, "delivery_address"=>nil, "total_clp"=>33840, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:06Z", "items"=>[{"product_id"=>7, "name"=>"Bowl Salmón Teriyaki", "sku"=>"SKU-007", "quantity"=>2, "unit_price_clp"=>9990, "subtotal_clp"=>19980}, {"product_id"=>6, "name"=>"Edamame", "sku"=>"SKU-006", "quantity"=>3, "unit_price_clp"=>3290, "subtotal_clp"=>9870}, {"product_id"=>4, "name"=>"Nigiri Salmón x2", "sku"=>"SKU-004", "quantity"=>1, "unit_price_clp"=>3990, "subtotal_clp"=>3990}], "store_code"=>"PROV", "order"=>{"id"=>20, "order_type"=>"pickup", "delivery_address"=>nil, "total_clp"=>33840, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:06Z"}}
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'PROV' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore PROV] Orden #20 recibida: pickup, total 33840 CLP, 3 ítem(s)
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mOrder Update (14.5ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.442408', "updated_at" = '2026-10-26 04:24:09.442824' WHERE "orders"."id" = 18 /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrderItem Load (2.0ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 21 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mProduct Load (2.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mProduct Load (1.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update (20.5ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.464673', "updated_at" = '2026-10-26 04:24:09.465113' WHERE "orders"."id" = 20 /*application='Api'*/[0m
+Started POST "/mock_store/LCON/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>21, "restaurant"=>{"id"=>2, "code"=>"LCON", "name"=>"Niu Foods Las Condes"}, "order_type"=>"delivery", "customer"=>{"name"=>"Constanza Martínez", "phone"=>"+56969099485"}, "delivery_address"=>"Av. Pedro de Valdivia 1281, Santiago", "total_clp"=>15570, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:06Z", "items"=>[{"product_id"=>6, "name"=>"Edamame", "sku"=>"SKU-006", "quantity"=>2, "unit_price_clp"=>3290, "subtotal_clp"=>6580}, {"product_id"=>1, "name"=>"Niu Roll Salmón", "sku"=>"SKU-001", "quantity"=>1, "unit_price_clp"=>8990, "subtotal_clp"=>8990}], "store_code"=>"LCON", "order"=>{"id"=>21, "order_type"=>"delivery", "delivery_address"=>"Av. Pedro de Valdivia 1281, Santiago", "total_clp"=>15570, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:06Z"}}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'LCON' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore LCON] Orden #21 recibida: delivery, total 15570 CLP, 2 ítem(s)
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Load (1.9ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 22 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrder Update (7.5ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.495133', "updated_at" = '2026-10-26 04:24:09.495604' WHERE "orders"."id" = 21 /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update All (3.4ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.504805' WHERE "orders"."id" = 22 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mOrderItem Load (2.0ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 22 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mOrder Load (1.6ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 23 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrder Load (1.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 24 LIMIT 1 /*application='Api'*/[0m
+Started POST "/mock_store/PROV/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>22, "restaurant"=>{"id"=>1, "code"=>"PROV", "name"=>"Niu Foods Providencia"}, "order_type"=>"delivery", "customer"=>{"name"=>"Javiera Sepúlveda", "phone"=>"+56909572503"}, "delivery_address"=>"Av. Los Leones 9105, Santiago", "total_clp"=>3290, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:07Z", "items"=>[{"product_id"=>6, "name"=>"Edamame", "sku"=>"SKU-006", "quantity"=>1, "unit_price_clp"=>3290, "subtotal_clp"=>3290}], "store_code"=>"PROV", "order"=>{"id"=>22, "order_type"=>"delivery", "delivery_address"=>"Av. Los Leones 9105, Santiago", "total_clp"=>3290, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:07Z"}}
+  [1m[36mOrder Update All (2.4ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.526679' WHERE "orders"."id" = 23 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'PROV' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  [1m[36mOrder Load (3.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 25 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore PROV] Orden #22 recibida: delivery, total 3290 CLP, 1 ítem(s)
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mRestaurant Load (1.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mOrder Update All (3.7ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.538012' WHERE "orders"."id" = 25 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update All (4.5ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 04:24:09.531169' WHERE "orders"."id" = 24 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mOrder Update (5.8ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.540043', "updated_at" = '2026-10-26 04:24:09.540422' WHERE "orders"."id" = 22 /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mOrderItem Load (1.3ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 25 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrderItem Load (0.9ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 23 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 8 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mOrderItem Load (1.1ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 24 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 8 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+Started POST "/mock_store/LCON/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 9 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>23, "restaurant"=>{"id"=>2, "code"=>"LCON", "name"=>"Niu Foods Las Condes"}, "order_type"=>"pickup", "customer"=>{"name"=>"Sebastián González", "phone"=>"+56962731781"}, "delivery_address"=>nil, "total_clp"=>31960, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:07Z", "items"=>[{"product_id"=>3, "name"=>"Avocado Roll", "sku"=>"SKU-003", "quantity"=>2, "unit_price_clp"=>6990, "subtotal_clp"=>13980}, {"product_id"=>8, "name"=>"Bowl Pollo Teriyaki", "sku"=>"SKU-008", "quantity"=>2, "unit_price_clp"=>8990, "subtotal_clp"=>17980}], "store_code"=>"LCON", "order"=>{"id"=>23, "order_type"=>"pickup", "delivery_address"=>nil, "total_clp"=>31960, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:07Z"}}
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'LCON' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore LCON] Orden #23 recibida: pickup, total 31960 CLP, 2 ítem(s)
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.7ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/mock_store/PROV/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+Started POST "/mock_store/NUNO/orders" for 172.18.0.5 at 2026-10-26 04:24:09 +0000
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>24, "restaurant"=>{"id"=>3, "code"=>"NUNO", "name"=>"Niu Foods Ñuñoa"}, "order_type"=>"delivery", "customer"=>{"name"=>"Sebastián Díaz", "phone"=>"+56938956562"}, "delivery_address"=>"Av. Apoquindo 9973, Santiago", "total_clp"=>52920, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:07Z", "items"=>[{"product_id"=>3, "name"=>"Avocado Roll", "sku"=>"SKU-003", "quantity"=>5, "unit_price_clp"=>6990, "subtotal_clp"=>34950}, {"product_id"=>1, "name"=>"Niu Roll Salmón", "sku"=>"SKU-001", "quantity"=>1, "unit_price_clp"=>8990, "subtotal_clp"=>8990}, {"product_id"=>5, "name"=>"Gyozas de Pollo x5", "sku"=>"SKU-005", "quantity"=>2, "unit_price_clp"=>4490, "subtotal_clp"=>8980}], "store_code"=>"NUNO", "order"=>{"id"=>24, "order_type"=>"delivery", "delivery_address"=>"Av. Apoquindo 9973, Santiago", "total_clp"=>52920, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:07Z"}}
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'NUNO' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  [1m[36mOrder Update (5.2ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.583032', "updated_at" = '2026-10-26 04:24:09.583502' WHERE "orders"."id" = 23 /*application='Api'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+Processing by MockStore::OrdersController#create as JSON
+[MockStore NUNO] Orden #24 recibida: delivery, total 52920 CLP, 3 ítem(s)
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  Parameters: {"id"=>25, "restaurant"=>{"id"=>1, "code"=>"PROV", "name"=>"Niu Foods Providencia"}, "order_type"=>"pickup", "customer"=>{"name"=>"Javiera González", "phone"=>"+56904560648"}, "delivery_address"=>nil, "total_clp"=>96830, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T04:24:07Z", "items"=>[{"product_id"=>8, "name"=>"Bowl Pollo Teriyaki", "sku"=>"SKU-008", "quantity"=>5, "unit_price_clp"=>8990, "subtotal_clp"=>44950}, {"product_id"=>4, "name"=>"Nigiri Salmón x2", "sku"=>"SKU-004", "quantity"=>3, "unit_price_clp"=>3990, "subtotal_clp"=>11970}, {"product_id"=>2, "name"=>"California Ebi", "sku"=>"SKU-002", "quantity"=>4, "unit_price_clp"=>7490, "subtotal_clp"=>29960}, {"product_id"=>9, "name"=>"Bebida 350 ml", "sku"=>"SKU-009", "quantity"=>5, "unit_price_clp"=>1990, "subtotal_clp"=>9950}], "store_code"=>"PROV", "order"=>{"id"=>25, "order_type"=>"pickup", "delivery_address"=>nil, "total_clp"=>96830, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T04:24:07Z"}}
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mRestaurant Load (1.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'PROV' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore PROV] Orden #25 recibida: pickup, total 96830 CLP, 4 ítem(s)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 1.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update (4.2ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.595315', "updated_at" = '2026-10-26 04:24:09.595974' WHERE "orders"."id" = 24 /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update (3.9ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 04:24:09.599800', "updated_at" = '2026-10-26 04:24:09.600278' WHERE "orders"."id" = 25 /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:24:16 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:24:26 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:24:36 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:24:46 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:24:56 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:25:07 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:25:18 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:25:28 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:25:38 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:25:49 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 7.1ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:25:59 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:26:09 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:26:19 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:26:30 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 04:26:40 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
