@@ -5419,3 +5419,803 @@ Processing by Rails::HealthController#show as */*
 Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
 
 
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:54:49 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:54:59 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:55:09 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:55:19 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:55:29 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:55:39 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:55:49 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:56:00 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:56:10 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 963ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 961.1ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:56:21 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:56:31 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:56:41 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:56:51 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:57:01 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:57:12 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:57:22 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:57:32 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:57:42 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:57:52 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:58:02 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:58:12 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:58:22 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:58:32 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:58:42 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:58:53 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:59:03 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:59:13 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:59:24 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:59:35 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:59:45 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 138ms (Views: 137.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 126.6ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 11:59:55 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:00:10 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:00:24 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:00:34 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:00:44 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:00:55 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:01:05 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:01:15 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:01:28 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:01:38 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:01:48 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:01:58 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:02:09 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:02:19 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 4.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:02:31 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:02:41 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:02:52 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:03:06 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:03:16 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 19ms (Views: 12.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:03:26 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 7.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:03:36 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.4ms | GC: 0.0ms)
+Completed 200 OK in 30ms (Views: 25.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:03:47 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 6.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:03:58 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:04:08 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:04:18 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:04:29 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:04:59 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (7.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Api'*/[0m
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.2ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:05:15 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:05:25 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:05:36 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:05:46 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:05:56 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:06:06 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:06:16 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:06:28 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:06:39 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:06:49 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:06:59 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:07:10 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:07:21 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/v1/orders?per_page=1" for 172.18.0.1 at 2026-10-26 12:07:28 +0000
+Processing by Api::V1::OrdersController#index as */*
+  Parameters: {"per_page"=>"1"}
+  [1m[36mOrder Count (126.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders" /*action='index',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_search.rb:45:in `call'
+  [1m[36mOrder Load (9.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" ORDER BY "orders"."created_at" DESC, "orders"."id" DESC LIMIT 1 OFFSET 0 /*action='index',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/api/v1/orders_controller.rb:19:in `map'
+  [1m[36mRestaurant Load (5.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 /*action='index',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/api/v1/orders_controller.rb:19:in `map'
+  [1m[36mOrderItem Load (5.7ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 25 /*action='index',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/api/v1/orders_controller.rb:19:in `map'
+Completed 200 OK in 455ms (Views: 0.4ms | ActiveRecord: 259.1ms (4 queries, 0 cached) | GC: 52.4ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:07:31 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:07:44 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:07:54 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/v1/orders?per_page=1" for 172.18.0.1 at 2026-10-26 12:07:54 +0000
+Processing by Api::V1::OrdersController#index as */*
+  Parameters: {"per_page"=>"1"}
+  [1m[36mOrder Count (2.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders" /*action='index',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_search.rb:45:in `call'
+  [1m[36mOrder Load (1.8ms)[0m  [1m[34mSELECT "orders".* FROM "orders" ORDER BY "orders"."created_at" DESC, "orders"."id" DESC LIMIT 1 OFFSET 0 /*action='index',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/api/v1/orders_controller.rb:19:in `map'
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 /*action='index',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/api/v1/orders_controller.rb:19:in `map'
+  [1m[36mOrderItem Load (1.1ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 25 /*action='index',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/api/v1/orders_controller.rb:19:in `map'
+Completed 200 OK in 97ms (Views: 4.1ms | ActiveRecord: 5.9ms (4 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:08:04 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:08:15 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:08:25 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:08:37 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 4.5ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:08:48 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:08:58 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/v1/orders/999999" for 172.18.0.1 at 2026-10-26 12:09:04 +0000
+Processing by Api::V1::OrdersController#show as */*
+  Parameters: {"id"=>"999999"}
+  [1m[36mOrder Load (15.9ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 999999 LIMIT 1 /*action='show',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/api/v1/orders_controller.rb:32:in `show'
+Completed 404 Not Found in 94ms (Views: 13.7ms | ActiveRecord: 15.8ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:09:08 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:09:18 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1462ms (Views: 1460.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1461.9ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:09:30 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 12:09:35 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>1, "order_type"=>"delivery", "customer"=>{"name"=>"Valentina Muñoz", "phone"=>"+56936027872"}, "items"=>[{"product_id"=>4, "quantity"=>4}, {"product_id"=>5, "quantity"=>3}], "order"=>{"restaurant_id"=>1, "order_type"=>"delivery"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007923abb96228>, params: {"restaurant_id"=>1, "order_type"=>"delivery", "customer"=>{"name"=>"Valentina Muñoz", "phone"=>"+56936027872"}, "items"=>[{"product_id"=>4, "quantity"=>4}, {"product_id"=>5, "quantity"=>3}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>1, "order_type"=>"delivery"}} }[0m
+  [1m[36mTRANSACTION (31.4ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:09:40 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mProduct Load (26.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (6.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[31mROLLBACK /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 422 Unprocessable Content in 5530ms (Views: 0.2ms | ActiveRecord: 1313.4ms (3 queries, 0 cached) | GC: 1706.6ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 12:09:43 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Rojas", "phone"=>"+56976624307"}, "items"=>[{"product_id"=>1, "quantity"=>4}, {"product_id"=>3, "quantity"=>3}], "delivery_address"=>"Av. Providencia 2525, Santiago", "order"=>{"restaurant_id"=>2, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 2525, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007923ab9817d0>, params: {"restaurant_id"=>2, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Rojas", "phone"=>"+56976624307"}, "items"=>[{"product_id"=>1, "quantity"=>4}, {"product_id"=>3, "quantity"=>3}], "delivery_address"=>"Av. Providencia 2525, Santiago", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>2, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 2525, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (3.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (6.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (72.6ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (2, 'delivery', 'Ana Rojas', '+56976624307', 'Av. Providencia 2525, Santiago', 56930, 'pending', 0, NULL, NULL, '2026-10-26 12:09:43.342055', '2026-10-26 12:09:43.342055') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (20.6ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (26, 1, 4, 8990, 35960, '2026-10-26 12:09:43.452520', '2026-10-26 12:09:43.452520') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (2.1ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (26, 3, 3, 6990, 20970, '2026-10-26 12:09:43.479938', '2026-10-26 12:09:43.479938') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (6.2ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 450ms (Views: 0.9ms | ActiveRecord: 112.4ms (6 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 12:09:43 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>3, "order_type"=>"pickup", "customer"=>{"name"=>"Camila Pérez", "phone"=>"+56916217708"}, "items"=>[{"product_id"=>6, "quantity"=>4}, {"product_id"=>1, "quantity"=>2}], "order"=>{"restaurant_id"=>3, "order_type"=>"pickup"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007923ab0e6cd8>, params: {"restaurant_id"=>3, "order_type"=>"pickup", "customer"=>{"name"=>"Camila Pérez", "phone"=>"+56916217708"}, "items"=>[{"product_id"=>6, "quantity"=>4}, {"product_id"=>1, "quantity"=>2}], "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>3, "order_type"=>"pickup"}} }[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (16.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (2.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (1.9ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (3, 'pickup', 'Camila Pérez', '+56916217708', NULL, 31140, 'pending', 0, NULL, NULL, '2026-10-26 12:09:43.850424', '2026-10-26 12:09:43.850424') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (11.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (27, 6, 4, 3290, 13160, '2026-10-26 12:09:43.871383', '2026-10-26 12:09:43.871383') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (2.3ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (27, 1, 2, 8990, 17980, '2026-10-26 12:09:43.925586', '2026-10-26 12:09:43.925586') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 192ms (Views: 0.4ms | ActiveRecord: 38.3ms (6 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/v1/orders" for 127.0.0.1 at 2026-10-26 12:09:43 +0000
+Processing by Api::V1::OrdersController#create as JSON
+  Parameters: {"restaurant_id"=>1, "order_type"=>"delivery", "customer"=>{"name"=>"Constanza Sepúlveda", "phone"=>"+56945097779"}, "items"=>[{"product_id"=>5, "quantity"=>4}], "delivery_address"=>"Calle Monjitas 3343, Santiago", "order"=>{"restaurant_id"=>1, "order_type"=>"delivery", "delivery_address"=>"Calle Monjitas 3343, Santiago"}}
+[31mUnpermitted parameter: :order. Context: { controller: Api::V1::OrdersController, action: create, request: #<ActionDispatch::Request:0x00007923ab055508>, params: {"restaurant_id"=>1, "order_type"=>"delivery", "customer"=>{"name"=>"Constanza Sepúlveda", "phone"=>"+56945097779"}, "items"=>[{"product_id"=>5, "quantity"=>4}], "delivery_address"=>"Calle Monjitas 3343, Santiago", "controller"=>"api/v1/orders", "action"=>"create", "order"=>{"restaurant_id"=>1, "order_type"=>"delivery", "delivery_address"=>"Calle Monjitas 3343, Santiago"}} }[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mProduct Load (16.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/models/order_item.rb:21:in `calculate_amounts'
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrder Create (1.3ms)[0m  [1m[32mINSERT INTO "orders" ("restaurant_id", "order_type", "customer_name", "customer_phone", "delivery_address", "total_clp", "dispatch_status", "dispatch_attempts", "last_dispatch_error", "dispatched_at", "created_at", "updated_at") VALUES (1, 'delivery', 'Constanza Sepúlveda', '+56945097779', 'Calle Monjitas 3343, Santiago', 17960, 'pending', 0, NULL, NULL, '2026-10-26 12:09:44.040437', '2026-10-26 12:09:44.040437') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mOrderItem Create (2.1ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "product_id", "quantity", "unit_price_clp", "subtotal_clp", "created_at", "updated_at") VALUES (28, 5, 4, 4490, 17960, '2026-10-26 12:09:44.068659', '2026-10-26 12:09:44.068659') RETURNING "id" /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/services/order_creator.rb:44:in `call'
+Completed 201 Created in 103ms (Views: 0.8ms | ActiveRecord: 24.2ms (4 queries, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mOrder Load (3.6ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 28 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrder Update All (30.0ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 12:09:48.820650' WHERE "orders"."id" = 28 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mOrder Load (1777.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 27 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrder Load (1776.7ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = 26 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/jobs/dispatch_order_job.rb:61:in `perform'
+  [1m[36mOrder Update All (6.2ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 12:09:49.231117' WHERE "orders"."id" = 27 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mOrder Update All (2.8ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_attempts" = COALESCE("orders"."dispatch_attempts", 0) + 1, "updated_at" = '2026-10-26 12:09:49.234397' WHERE "orders"."id" = 26 /*application='Api'*/[0m
+  ↳ app/models/order.rb:56:in `register_dispatch_attempt!'
+  [1m[36mRestaurant Load (2.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 2 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mRestaurant Load (2.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/services/store_dispatcher.rb:115:in `store_uri'
+  [1m[36mOrderItem Load (3.0ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 26 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mOrderItem Load (2.2ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 27 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mOrderItem Load (3.0ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = 28 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:30:in `map'
+  [1m[36mProduct Load (2.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 6 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (2.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 5 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+  [1m[36mProduct Load (1.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1 /*application='Api'*/[0m
+  ↳ app/serializers/order_serializer.rb:39:in `item_json'
+Started POST "/mock_store/PROV/orders" for 172.18.0.5 at 2026-10-26 12:09:49 +0000
+Started POST "/mock_store/LCON/orders" for 172.18.0.5 at 2026-10-26 12:09:49 +0000
+Started POST "/mock_store/NUNO/orders" for 172.18.0.5 at 2026-10-26 12:09:49 +0000
+Processing by MockStore::OrdersController#create as JSON
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>28, "restaurant"=>{"id"=>1, "code"=>"PROV", "name"=>"Niu Foods Providencia"}, "order_type"=>"delivery", "customer"=>{"name"=>"Constanza Sepúlveda", "phone"=>"+56945097779"}, "delivery_address"=>"Calle Monjitas 3343, Santiago", "total_clp"=>17960, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T12:09:44Z", "items"=>[{"product_id"=>5, "name"=>"Gyozas de Pollo x5", "sku"=>"SKU-005", "quantity"=>4, "unit_price_clp"=>4490, "subtotal_clp"=>17960}], "store_code"=>"PROV", "order"=>{"id"=>28, "order_type"=>"delivery", "delivery_address"=>"Calle Monjitas 3343, Santiago", "total_clp"=>17960, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T12:09:44Z"}}
+Processing by MockStore::OrdersController#create as JSON
+  Parameters: {"id"=>26, "restaurant"=>{"id"=>2, "code"=>"LCON", "name"=>"Niu Foods Las Condes"}, "order_type"=>"delivery", "customer"=>{"name"=>"Ana Rojas", "phone"=>"+56976624307"}, "delivery_address"=>"Av. Providencia 2525, Santiago", "total_clp"=>56930, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T12:09:43Z", "items"=>[{"product_id"=>1, "name"=>"Niu Roll Salmón", "sku"=>"SKU-001", "quantity"=>4, "unit_price_clp"=>8990, "subtotal_clp"=>35960}, {"product_id"=>3, "name"=>"Avocado Roll", "sku"=>"SKU-003", "quantity"=>3, "unit_price_clp"=>6990, "subtotal_clp"=>20970}], "store_code"=>"LCON", "order"=>{"id"=>26, "order_type"=>"delivery", "delivery_address"=>"Av. Providencia 2525, Santiago", "total_clp"=>56930, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T12:09:43Z"}}
+  Parameters: {"id"=>27, "restaurant"=>{"id"=>3, "code"=>"NUNO", "name"=>"Niu Foods Ñuñoa"}, "order_type"=>"pickup", "customer"=>{"name"=>"Camila Pérez", "phone"=>"+56916217708"}, "delivery_address"=>nil, "total_clp"=>31140, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "dispatched_at"=>nil, "last_dispatch_error"=>nil, "created_at"=>"2026-10-26T12:09:43Z", "items"=>[{"product_id"=>6, "name"=>"Edamame", "sku"=>"SKU-006", "quantity"=>4, "unit_price_clp"=>3290, "subtotal_clp"=>13160}, {"product_id"=>1, "name"=>"Niu Roll Salmón", "sku"=>"SKU-001", "quantity"=>2, "unit_price_clp"=>8990, "subtotal_clp"=>17980}], "store_code"=>"NUNO", "order"=>{"id"=>27, "order_type"=>"pickup", "delivery_address"=>nil, "total_clp"=>31140, "dispatch_status"=>"pending", "dispatch_attempts"=>1, "last_dispatch_error"=>nil, "dispatched_at"=>nil, "created_at"=>"2026-10-26T12:09:43Z"}}
+  [1m[36mRestaurant Load (18.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'PROV' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore PROV] Orden #28 recibida: delivery, total 17960 CLP, 1 ítem(s)
+Completed 200 OK in 28ms (Views: 0.2ms | ActiveRecord: 17.9ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update (4.2ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 12:09:49.444892', "updated_at" = '2026-10-26 12:09:49.445856' WHERE "orders"."id" = 28 /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mRestaurant Load (6.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'NUNO' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore NUNO] Orden #27 recibida: pickup, total 31140 CLP, 2 ítem(s)
+Completed 200 OK in 82ms (Views: 0.1ms | ActiveRecord: 11.9ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update (1.9ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 12:09:49.508732', "updated_at" = '2026-10-26 12:09:49.509083' WHERE "orders"."id" = 27 /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mRestaurant Load (4.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."code" = 'LCON' LIMIT 1 /*action='create',application='Api',controller='orders'*/[0m
+  ↳ app/controllers/mock_store/orders_controller.rb:33:in `create'
+[MockStore LCON] Orden #26 recibida: delivery, total 56930 CLP, 2 ítem(s)
+Completed 200 OK in 124ms (Views: 1.2ms | ActiveRecord: 18.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mOrder Update (6.4ms)[0m  [1m[33mUPDATE "orders" SET "dispatch_status" = 'sent', "dispatched_at" = '2026-10-26 12:09:49.547392', "updated_at" = '2026-10-26 12:09:49.556624' WHERE "orders"."id" = 26 /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT /*application='Api'*/[0m
+  ↳ app/models/order.rb:82:in `update_dispatch_state!'
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:09:51 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:10:01 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/up" for 127.0.0.1 at 2026-10-26 12:10:11 +0000
+Processing by Rails::HealthController#show as */*
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+

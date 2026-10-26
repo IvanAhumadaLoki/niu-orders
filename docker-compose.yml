@@ -25,6 +25,9 @@ x-rails-app: &rails-app
     # Probabilidad (0 a 1) de que la tienda simulada responda con un error.
     # Ejemplo:  MOCK_STORE_FAILURE_RATE=0.5 docker compose up -d
     MOCK_STORE_FAILURE_RATE: ${MOCK_STORE_FAILURE_RATE:-0}
+    # Orígenes del navegador autorizados a leer la API (CORS), separados por
+    # coma. Por defecto, el dashboard de desarrollo (Vite, puerto 5173).
+    CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173,http://127.0.0.1:5173}
   volumes:
     # Código fuente: los cambios en tu editor se ven al instante en el contenedor.
     - ./api:/app

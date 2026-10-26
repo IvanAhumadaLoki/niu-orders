@@ -46,3 +46,5 @@ gem "shoulda-matchers", "~> 8.0", :group => :test
 gem "webmock", "~> 3.34", :group => :test
 
 gem "sidekiq", "~> 8.1"
+
+gem "rack-cors", "~> 3.0"
