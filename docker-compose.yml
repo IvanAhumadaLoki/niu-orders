@@ -6,6 +6,7 @@
 #   redis    cola de trabajos de Sidekiq
 #   api      API Rails (puerto 3000); también aloja la tienda simulada
 #   sidekiq  procesa en segundo plano el despacho de órdenes a las tiendas
+#   web      dashboard React con Vite (puerto 5173)
 
 # Configuración común a `api` y `sidekiq`: es la misma aplicación Rails, con
 # el mismo código, base de datos y variables, solo cambia el comando que ejecuta.
@@ -105,7 +106,30 @@ services:
       api:
         condition: service_healthy
 
+  # Dashboard React (Vite), puerto 5173. Corre en un contenedor con Node, así
+  # no hace falta instalar Node en la máquina. `npm install` se ejecuta al
+  # arrancar: es rápido cuando las dependencias ya están instaladas.
+  web:
+    image: node:22
+    working_dir: /app
+    command: sh -c "npm install && npm run dev"
+    environment:
+      # Dirección de la API que usa el NAVEGADOR (por eso es localhost, no el
+      # nombre interno `api`). Debe estar autorizada en CORS_ORIGINS de la API.
+      VITE_API_URL: ${VITE_API_URL:-http://localhost:3000}
+      # Solo si el recargado automático no detecta cambios (ver vite.config.js).
+      VITE_USE_POLLING: ${VITE_USE_POLLING:-false}
+    volumes:
+      # Código fuente del dashboard.
+      - ./web:/app
+      # node_modules vive en un volumen aparte: es más rápido que en la carpeta
+      # del proyecto y no mezcla binarios de Linux con tu sistema de archivos.
+      - web_node_modules:/app/node_modules
+    ports:
+      - "5173:5173"
+
 volumes:
   pg_data:
   redis_data:
   bundle_cache:
+  web_node_modules:
