@@ -31,6 +31,10 @@ services:
       DATABASE_HOST: db
       DATABASE_USER: postgres
       DATABASE_PASSWORD: postgres
+      # Dónde están las tiendas. En desarrollo apunta a la tienda simulada de
+      # esta misma API; `api` es el nombre del servicio dentro de la red de
+      # Docker, así también lo podrá usar el contenedor de Sidekiq más adelante.
+      STORE_BASE_URL: http://api:3000/mock_store
       # Probabilidad (0 a 1) de que la tienda simulada responda con un error.
       # Ejemplo:  MOCK_STORE_FAILURE_RATE=0.5 docker compose up -d
       MOCK_STORE_FAILURE_RATE: ${MOCK_STORE_FAILURE_RATE:-0}
