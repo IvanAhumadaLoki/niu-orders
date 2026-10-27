@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
-import { afterEach, describe, expect, it } from "vitest";
-import { cleanup, render, screen } from "@testing-library/react";
+import { afterEach, describe, expect, it, vi } from "vitest";
+import { cleanup, fireEvent, render, screen } from "@testing-library/react";
 import OrdersTable from "./OrdersTable.jsx";
 
 afterEach(cleanup);
@@ -65,5 +65,27 @@ describe("OrdersTable", () => {
 
     expect(screen.getByText("Aún no hay órdenes registradas.")).toBeTruthy();
     expect(screen.queryByRole("table")).toBeNull();
+  });
+
+  it("avisa qué orden se eligió, con el botón de su número o con un clic en la fila", () => {
+    const onSelect = vi.fn();
+    render(<OrdersTable orders={[sentOrder, failedOrder]} onSelect={onSelect} />);
+
+    fireEvent.click(screen.getByRole("button", { name: "Ver detalle de la orden #31" }));
+    expect(onSelect).toHaveBeenCalledTimes(1);
+    expect(onSelect).toHaveBeenLastCalledWith(31);
+
+    fireEvent.click(screen.getByText("Delivery"));
+    expect(onSelect).toHaveBeenCalledTimes(2);
+    expect(onSelect).toHaveBeenLastCalledWith(32);
+  });
+
+  it("resalta la fila de la orden seleccionada", () => {
+    render(<OrdersTable orders={[sentOrder, failedOrder]} selectedId={32} />);
+
+    const rows = screen.getAllByRole("row");
+    expect(rows[1].getAttribute("aria-current")).toBeNull();
+    expect(rows[2].getAttribute("aria-current")).toBe("true");
+    expect(rows[2].className).toContain("row-selected");
   });
 });
