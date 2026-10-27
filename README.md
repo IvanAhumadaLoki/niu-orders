@@ -50,7 +50,7 @@ Recibe órdenes desde canales digitales, las **valida**, **calcula su total en e
 
 ```bash
 # 1. Clonar el repositorio
-git clone <url-del-repositorio> niu-orders
+git clone <https://github.com/IvanAhumadaLoki/niu-orders> niu-orders
 cd niu-orders
 
 # 2. Construir y levantar los 5 servicios (la primera vez tarda unos minutos)
